@@ -1,0 +1,8 @@
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido",
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero analicé la característica principal declarada en el formulario: 'Desarrollo realizado a medida a pedido del cliente', lo cual sugiere categoría (iv). Luego revisé la propuesta técnica que confirma desarrollo de una plataforma completa de e-commerce con arquitectura de microservicios, APIs REST, integración con múltiples sistemas externos (Salesforce, MercadoPago, etc.), frontend headless con Next.js, y backend en Adobe Commerce Cloud. El proyecto incluye desarrollo de software original con valor agregado tecnológico significativo: arquitectura DDD, APIs custom, middleware con Power Automate, y soluciones de integración complejas. Aunque la propuesta no menciona explícitamente cesión de propiedad intelectual, el contexto de 'desarrollo a medida' y la naturaleza del proyecto sugieren que encaja en categoría (iv).",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en evidencia clara de desarrollo a medida con alto valor agregado tecnológico y arquitectura compleja.",
+  "IA_Observaciones": "Ninguna"
+}

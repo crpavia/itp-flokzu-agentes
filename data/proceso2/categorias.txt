@@ -1,0 +1,11 @@
+a) Software y servicios informáticos y digitales, incluyendo: 
+(i) desarrollo de productos y servicios de software (SAAS) existentes o que se creen en el futuro, que se apliquen a actividades como e-learning, marketing interactivo, e-commerce, servicios de provisión de aplicaciones, edición y publicación electrónica de información; siempre que sean parte de una oferta informática integrada y agreguen valor a la misma; 
+(ii) desarrollo y puesta a punto de productos de software originales registrables como obra inédita o editada; 
+(iii) implementación y puesta a punto para terceros de productos de software propios o creados por terceros y de productos registrados; 
+(iv) desarrollo de software a medida cuando esta actividad permita distinguir la creación de valor agregado, aun cuando en los contratos respectivos se ceda la propiedad intelectual a terceros; 
+(v) servicios informáticos de valor agregado orientados a mejorar la seguridad de equipos y redes, la confiabilidad de programas y sistemas de software, la calidad de los sistemas y datos y la administración de la información y el conocimiento de las organizaciones; 
+(vi) desarrollo de partes de sistemas, módulos, rutinas, procedimientos, documentación, siempre que se trate de desarrollos complementarios o integrables a productos de software registrables; 
+(vii) servicios de diseño, codificación, implementación, mantenimiento, soporte a distancia, resolución de incidencias, conversión y/o traducción de lenguajes informáticos, adición de funciones, preparación de documentación para el usuario y garantía o asesoramiento de calidad de sistemas, entre otros, todos ellos a ser realizados a productos de software y con destino a mercados externos; 
+(viii) desarrollo y puesta a punto de software que se elabore para ser incorporado en procesadores (software embebido o insertado) utilizados en bienes y sistemas de diversa índole; 
+(ix) videojuegos; y 
+(x) servicios de cómputo en la nube; 

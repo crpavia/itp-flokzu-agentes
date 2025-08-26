@@ -1,0 +1,603 @@
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es determinar si un proyecto debe ser promovido basándote en las categorías establecidas en la normativa vigente.
+
+## INSTRUCCIONES DE ANÁLISIS
+
+### PASO 1: Análisis de Categorización
+Evalúa si el proyecto encaja en alguna de las siguientes categorías de "Software y servicios informáticos y digitales":
+
+<categorias>
+a) Software y servicios informáticos y digitales, incluyendo: 
+(i) desarrollo de productos y servicios de software (SAAS) existentes o que se creen en el futuro, que se apliquen a actividades como e-learning, marketing interactivo, e-commerce, servicios de provisión de aplicaciones, edición y publicación electrónica de información; siempre que sean parte de una oferta informática integrada y agreguen valor a la misma; 
+(ii) desarrollo y puesta a punto de productos de software originales registrables como obra inédita o editada; 
+(iii) implementación y puesta a punto para terceros de productos de software propios o creados por terceros y de productos registrados; 
+(iv) desarrollo de software a medida cuando esta actividad permita distinguir la creación de valor agregado, aun cuando en los contratos respectivos se ceda la propiedad intelectual a terceros; 
+(v) servicios informáticos de valor agregado orientados a mejorar la seguridad de equipos y redes, la confiabilidad de programas y sistemas de software, la calidad de los sistemas y datos y la administración de la información y el conocimiento de las organizaciones; 
+(vi) desarrollo de partes de sistemas, módulos, rutinas, procedimientos, documentación, siempre que se trate de desarrollos complementarios o integrables a productos de software registrables; 
+(vii) servicios de diseño, codificación, implementación, mantenimiento, soporte a distancia, resolución de incidencias, conversión y/o traducción de lenguajes informáticos, adición de funciones, preparación de documentación para el usuario y garantía o asesoramiento de calidad de sistemas, entre otros, todos ellos a ser realizados a productos de software y con destino a mercados externos; 
+(viii) desarrollo y puesta a punto de software que se elabore para ser incorporado en procesadores (software embebido o insertado) utilizados en bienes y sistemas de diversa índole; 
+(ix) videojuegos; y 
+(x) servicios de cómputo en la nube;
+</categorias>
+
+### PASO 2: Revisión del Formulario
+Analiza la información del formulario completado, prestando especial atención a:
+- La característica seleccionada que mejor representa el servicio
+- Las observaciones del análisis promovido
+- Descripción del servicio y herramientas utilizadas
+- Destino del servicio (mercado interno vs. externo)
+
+<formulario>
+{
+  "nombre_propuesto_servicio": "Servicio de Horas Profesionales Soporte IT",
+  "servicio_final_esperado": "Servicio de Horas Profesionales Soporte IT",
+  "descripcion_servicio": "Servicio de Horas Profesionales Soporte IT-Analista de Soporte IT Semi Sr",
+  "herramientas_a_utilizar": "Soporte IT: Semi Senior",
+  "encargado_indicaciones": "Cliente",
+  "proveedor_herramientas": "Cliente",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "Este Ceco debe ser similar al CECO DACO0AFA ya que solo es un cambio de razon social.",
+  "caracteristica_principal": "Otorgamiento de servicios de cómputo en la nube"
+}
+</formulario>
+
+### PASO 3: Análisis de la Propuesta
+Revisa la propuesta técnica para entender completamente el alcance y naturaleza del proyecto:
+
+<propuesta>
+Ciudad Autónoma de Buenos Aires, 1 de junio de 2025
+Señores
+MONTE VERDE S.A.
+Ruta 40 S/N Esquina
+Calle 8, Pocito
+Sanchez de Loria
+SAN JUAN (CP 5427)
+Presente
+Ref.: Oferta de prestación de servicios informáticos
+De nuestra consideración:
+IT PATAGONIA con domicilio en Av. Sáenz 17 Piso 6 de la Ciudad Autónoma de Buenos Aires (en adelante,
+el "Proveedor") tiene el agrado de dirigirse a MONTE VERDE S.A,, con domicilio en Ruta 40 S/N Esquina Calle 8,
+Pocito Sánchez de Loria , de la Provincia de San Juan (en adelante, el "Cliente"), quienes en conjunto serán
+denominadas las “Partes”, a fin de proponerle irrevocablemente la provisión de servicios profesionales
+en tecnología.
+La presente oferta (en adelante, la “Oferta” y/o el “Ofrecimiento”) se mantendrá irrevocable por el plazo de
+diez (10) días contados desde la fecha de su emisión indicada en el encabezamiento. Se entenderá que la
+Oferta ha sido aceptada por el Cliente si, dentro de los diez (10) días hábiles siguientes a la recepción de
+esta, no se ha notificado fehacientemente al Oferente el rechazo expreso de la Oferta.
+Una vez aceptada, la presente oferta constituirá un acuerdo vinculante entre las Partes (en adelante, el
+“Acuerdo”).
+Sin otro particular, saludamos a Uds. atentamente.
+Aclaración:
+Cargo: Apoderado
+Listado de Anexos:
+Anexo I Condiciones Generales del Servicio
+Anexo II Descripción de los Servicios, Vigencia y Precio Anexo
+III Marco Tarifario
+Anexo IV Normativa Anticorrupción
+Anexo V Políticas de Compliance de Adium Pharma aplicables a Monte Verde S.A.
+
+ANEXO I
+CONDICIONES GENERALES DE LOS SERVICIOS
+PRIMERA: OBJETO
+1.1 El objeto del presente Ofrecimiento es establecer el marco general en el que el Proveedor
+prestará los servicios descriptos en el Anexo II de la presente Oferta.
+1.2 Excepto lo expresamente dispuesto en contrario en el presente, queda establecido que los
+costos inherentes a las tareas necesarias para la prestación de los Servicios correrán por exclusiva cuenta y
+cargo del Proveedor, quien asumirá los mismos como un costo inherente a su propia actividad.
+1.3 El Proveedor reconoce y acepta que el Cliente será titular de todo trabajo, conclusión, información
+y papel de trabajo relacionada con la prestación de los Servicios. Por consiguiente, el Proveedor se
+compromete a entregar íntegramente dicha documentación al Cliente a su primer requerimiento.
+1.4 El Proveedor declara y garantiza al Cliente que cuenta con todos los recursos necesarios para
+la correcta y completa prestación de los Servicios.
+1.5. Las Partes acuerdan que la relación comercial derivada de la aceptación de la presente Oferta
+sustituye a cuantos otros Acuerdos comerciales pudiera tener el Proveedor con el Cliente en relación con
+los servicios aquí ofrecidos, que quedarán sin vigor ni efecto alguno desde la fecha de aceptación de la
+presente Oferta.
+SEGUNDA: VIGENCIA
+2.1 La presente Oferta tendrá la duración pactada en el Anexo II, no obstante, el Cliente estará
+facultado para solicitar la rescisión anticipada, total o parcial, de los Servicios en el marco de la presente
+Propuesta, sin necesidad de invocar causa o justificación, debiendo a tal fin notificar fehacientemente con
+sesenta (60) días corridos de anticipación al Proveedor y sin que ello implique un derecho en favor de esta
+última a reclamar el pago de cualquier tipo de suma con motivo de la rescisión antes indicada y/o que el
+Cliente posea la obligación de abonar monto alguno, compensar o indemnizar de cualquier otra forma al
+Proveedor por la rescisión solicitada, sin perjuicio de los montos devengados por el uso del servicio, hasta
+la fecha de la efectiva rescisión.
+2.2 Vencido el plazo indicado en el Anexo II, los Servicios se prorrogarán automáticamente por
+iguales períodos al contratado, salvo que cualquiera de las Partes manifieste su intención de no
+renovarlos con una antelación mayor a 30 días, sin necesidad de invocar causa y sin que ello genere
+derecho a indemnización o compensación alguna.
+TERCERA: PRECIO
+3.1 Como única, total y definitiva contraprestación por los Servicios y todas las demás obligaciones
+a cargo del Proveedor, el Cliente abonará al Proveedor, el precio que se indica en el respectivo
+Complemento Marco Tarifario.
+3.2 Las facturas emitidas serán pagadas de acuerdo con el plazo que se fije en el respectivo Anexo
+III.
+CUARTA: PERSONAL DEL PROVEEDOR
+4.1 Todas las personas que el Proveedor destine a la prestación de los Servicios estarán vinculadas
+única y exclusivamente al Proveedor, y en ninguna circunstancia podrán ser imputadas como
+dependientes, empleados o agentes del Cliente, por lo que el cumplimiento de todas y cada una de
+las obligaciones laborales, previsionales, impositivas y de cualquier índole vinculadas con dicho personal
+están y estarán a cargo exclusivo del Proveedor. El Proveedor deberá exhibir los comprobantes
+relacionados con las mencionadas obligaciones, a efectos de poder verificar su cumplimiento.
+
+4.2 El Proveedor se obliga a mantener indemne al Cliente respecto de todo y cualquier reclamo
+judicial o extrajudicial que dicho personal, ya se trate del personal dependiente del Proveedor, contratado
+mediante contratos de prestación de servicios, o personal de sub- proveedores, pudiera formular al
+Cliente con relación al cumplimiento de las obligaciones aquí contratadas, cualquiera sea la causa, motivo
+o fundamento fáctico o legal de dichos reclamos.
+4.3 El Proveedor deberá contratar respecto de todo el personal afectado al cumplimiento de los
+Servicios, un seguro de riesgos de trabajo y/o un seguro de vida y responsabilidad civil en caso de ser
+locadores de servicio y no personal en relación de dependencia, que deberá mantener vigente durante
+toda la duración de la relación comercial derivada de la prestación de los Servicios. Dicho seguro deberá
+cubrir la opción por la acción civil de daños y perjuicios.
+4.4 Sin perjuicio de lo expuesto, y para el caso que el cliente lo solicite, durante la vigencia de la
+relación comercial derivada de la prestación de los Servicios, el Proveedor entregará al Cliente con
+relación a cada una de las personas afectadas a la prestación de los Servicios, la siguiente información
+y/o comprobantes:
+(i) Número del Código Único de Identificación Laboral (CUIL) o CUIT en su caso;
+(ii) Constancia de pago de las remuneraciones o recibo de pago de facturas;
+(iii) Copia de los comprobantes de pago mensuales al sistema de seguridad social, de corresponder;
+(iv) Constancia de cobertura de riesgos del trabajo, debiendo adjuntar copia del contrato respectivo
+con una Aseguradora de Riesgos del Trabajo, y el comprobante de cada pago mensual durante la vigencia
+de la relación comercial derivada de la prestación de los Servicios o seguro de vida y responsabilidad civil,
+en caso de locadores de servicio; y
+(v) Constancia de apertura de cuenta corriente bancaria de la cual sea titular.
+4.5 Si para la prestación de los Servicios el Proveedor pretendiera utilizar personas bajo la figura de
+la locación de servicios en lugar de la relación de dependencia, deberá presentar al Cliente, con carácter
+previo a que tales personas comiencen a estar afectadas a la prestación de los Servicios a favor del Cliente
+la Constancia de Inscripción ante la Agencia de Recaudación y Control Aduanero de cada uno de ellos. En
+ningún caso se entenderá que estas locaciones de servicios constituyen una subcontratación, por lo que el
+Proveedor será el único y exclusivo responsable frente al Cliente por todos los actos y omisiones de las
+personas que ocupe para la prestación del Servicio, ya sea en relación de dependencia o bajo la figura de
+la locación de servicios.
+4.6 El Proveedor se compromete a notificar al Cliente, dentro del plazo de 72 horas de ocurrido, la
+terminación de la relación laboral o de locación de servicios con cualquier empleado y/o locador de
+servicios y/o subcontratista, en aquellos casos en que dichas personas humanas o jurídicas hubieran
+tenido o tengan al momento del cese acceso habilitado a aplicaciones y/o servicios y/o sistemas
+informáticos del Cliente, a los fines de que éste pueda retirar los accesos otorgados.
+QUINTA: CONFIDENCIALIDAD
+5.1. El Proveedor se compromete a mantener bajo la más estricta confidencialidad y a no divulgar a
+terceros, la Información Confidencial del Cliente (en adelante, la “Información Confidencial”), o de
+cualquier sociedad directa o indirectamente controlante, controlada o sujeta a control común con el
+Cliente o vinculada al Cliente, que le sea suministrada por el Cliente a los fines del cumplimiento del
+presente o de la cual tome conocimiento con motivo o en ocasión de la celebración del presente
+documento o la ejecución de los Servicios. A tal efecto, se entenderá por Información Confidencial toda
+información, procedimiento, instrucción, documentación de naturaleza técnica, financiera, contable o de
+otro tipo, correspondiente al Cliente y/o toda otra sociedad directa o indirectamente controlante,
+
+controlada o sujeta a control común con el Cliente o vinculada al Cliente. La Información Confidencial
+comprenderá, sin carácter limitativo, toda la información recabada y elaborada por el Proveedor en
+cumplimiento de las prestaciones a su cargo en los términos del presente documento.
+5.2. El Proveedor podrá revelar la Información Confidencial sólo a aquellos empleados que se
+encuentren afectados al cumplimiento de los Servicios, y en la medida en que resulte necesario la
+prestación de estos, y se compromete asimismo a que sus dependientes respeten la obligación de
+confidencialidad contenida en la presente cláusula. Sin perjuicio de ello, el Proveedor será responsable
+por cualquier violación a tal obligación por cualquiera de sus dependientes, aún en el caso en que tales
+dependientes hubiera suscripto el compromiso de confidencialidad precedentemente referido o el
+Proveedor hubiera tomado todas las medidas a su alcance para evitar tal divulgación.
+5.3. El uso por el Proveedor de la Información Confidencial a la que haya tenido acceso en virtud del
+presente estará limitado a la utilización de tal Información Confidencial para el cumplimiento de sus
+obligaciones bajo este documento.
+5.4. La obligación de confidencialidad contenida en la presente cláusula continuará, por el plazo de un
+año a partir de la terminación de la relación comercial derivada de la prestación de los Servicios y obligará
+al Proveedor con independencia de la terminación de este documento por cualquier causa.
+5.5. Para aquellos Servicios que impliquen un tratamiento de datos efectuado por el Proveedor por
+cuenta del Cliente, aquél asume, en relación con los datos personales que son objeto de tratamiento, los
+siguientes compromisos:
+a) Únicamente tratará los datos conforme a las instrucciones del Cliente, que es el responsable
+del archivo.
+b) El encargado del tratamiento (el Proveedor) no aplicará los datos comunicados por el Cliente
+ni los utilizará para un fin distinto de la prestación de los servicios que presta al Cliente.
+c) Que las obligaciones del artículo 9 de la Ley 25.326 incumben también al encargado del
+tratamiento (el Proveedor).
+d) El encargado del tratamiento (el Proveedor) debe evidenciar una clara separación de actividades
+en aquellos casos en que brinde servicios a múltiples organizaciones, ya sea entidades financieras o de
+otro tipo de negocio. Por esta razón la gestión y guarda de los datos del Cliente deberá realizarse
+evidenciando una separación lógica y física de los datos de otra organización.
+e) Adicionalmente los sistemas de administración de la seguridad de los datos del Cliente y de los
+programas relativos al mismo deberán tener un entorno de seguridad individual que pueda ser
+controlado y monitoreado exclusivamente por los responsables indicados por el Cliente.
+5.6. El Cliente adoptará las medidas adecuadas para limitar el acceso del personal del Proveedor datos
+personales, a los soportes que los contengan o a los recursos del sistema de información, para la realización
+de trabajos que no impliquen el tratamiento de datos personales.
+5.7. El Proveedor tendrá prohibido el acceso a los datos personales y se obliga a guardar secreto
+respecto a los datos que su personal hubiera podido conocer con motivo de la prestación del servicio.
+SEXTA: RESCISIÓN ANTICIPADA
+El Cliente podrá rescindir el presente servicio de forma total, o parcial, sin necesidad de expresar causa,
+debiendo notificar al proveedor dicha decisión con un mínimo de sesenta
+(60) días corridos de anticipación, y sin que ello genere derecho a indemnización, reclamo o compensación de
+ningún tipo.
+SEPTIMA: RELACIÓN ENTRE LAS PARTES
+El Proveedor es titular de una empresa en marcha, absolutamente independiente del Cliente, con
+
+organización, administración y personal propios, por lo que asume íntegramente el riesgo empresario
+vinculado con sus actividades y el cumplimiento de los Servicios. En ningún caso se entenderá que existe
+una relación societaria y/o laboral entre el Proveedor y el Cliente o entre el Cliente y los dependientes,
+directivos o accionistas del Proveedor, ni que alguna de las Partes tiene poder para representar a la otra.
+OCTAVA: CAMBIO ACCIONARIO O NIVELES GERENCIALES
+El Proveedor se compromete a notificar fehacientemente al Cliente, inmediatamente, cualquier cambio
+que se pudiera producir en la composición de su accionariado u órganos de gobierno que pudiera afectar
+de modo significativo al cumplimiento del Ofrecimiento.
+NOVENA: FOCAL POINT
+Tanto el Proveedor como el Cliente designará un Gerente de Cuenta con adecuada experiencia para
+desempeñarse como contacto primario a cargo de la ejecución del presente Ofrecimiento. Las Partes,
+incluyendo los Gerentes de Cuenta, se reunirán en los lugares y en las ocasiones mutuamente acordadas
+para discutir las cuestiones que surjan en relación con la ejecución de este Ofrecimiento.
+DECIMA: MODIFICACIONES y COMUNICACIONES
+Ningún cambio, reforma o modificación de cualquiera de los términos o condiciones del presente
+Ofrecimiento será válido salvo que se efectúe por instrumento escrito firmado por ambas partes. Si
+cualquier disposición del presente Ofrecimiento fuere considerada nula, ilegal o inexigible, la validez,
+legalidad o inteligibilidad de las disposiciones restantes no se verá afectada ni menoscabada en modo
+alguno.
+1. Las comunicaciones relativas al presente deberán efectuarse: (i) por documentación entregada en
+mano con el correspondiente “recibí” y firma ológrafa, y/o (ii) por correo con acuse de recibo, y/o (iii)
+electrónicamente vía email, y/o (iv) por cualquier otro medio que permita probar su recepción y la fecha
+en que se produjo.
+2. A los efectos del presente, las partes designan expresamente como domicilios y emails hábiles para
+la práctica de comunicaciones los señalados en la cláusula DÉCIMA PRIMERA.
+DECIMA PRIMERA: DOMICILIOS, JURISDICCIÓN Y COMPETENCIA
+a) Domicilios: A todos los fines derivados del presente Ofrecimiento las Partes constituyen los siguientes
+domicilios especiales:
+* IT PATAGONIA S.A.: (i) domicilio físico: Av. Sáenz 17 Piso 6, Ciudad Autónoma de Buenos Aires y (ii)
+domicilio electrónico: comercial@itpatagonia.com
+* MONTE VERDE S.A.: (i) domicilio físico: Ruta 40 S/N Esq. Calle 8, Pocito, Sanchez de Loria, SAN JUAN (CP
+5427), Ciudad Autónoma de Buenos Aires y (ii) domicilio electrónico: [ ];
+en los que serán válidas todas las notificaciones judiciales o extrajudiciales que deban cursarse.
+b) Jurisdicción y competencia: Asimismo, las Partes se someten a la jurisdicción y competencia de los
+Tribunales Ordinarios en lo Comercial con asiento en la Ciudad Autónoma de Buenos Aires, con expresa
+renuncia a cualquier otro fuero o jurisdicción que pudiera corresponder.
+DECIMA SEGUNDA: R E G L A S D E ANTICORRUPCIÓN DEL PROVEEDOR
+Se considera corrupción al acto por el cual una persona ofrece, entrega, solicita o acepta cualquier tipo
+de regalos, beneficios o promesas con la finalidad de obtener alguna ventaja para sí mismo o para un
+tercero y que entraña un abuso de posición.
+En relación con esta Oferta, el Cliente indica conocer y aceptar las normas anticorrupción incluidas bajo
+el Anexo V. Las Partes manifiestan que durante las negociaciones y para la celebración de esta han
+actuado en todo momento de forma ética y profesional y se comprometen a no realizar ninguna práctica
+que de alguna manera resulte o pueda resultar en una vulneración de leyes o normativas aplicables
+
+relacionadas con la corrupción en la República Argentina o en los Códigos de Conducta que pudiera tener
+cada una de las Partes. En este sentido, ambas Partes declaran que a la fecha de formalización de la presente
+Oferta no han recibido ningún tipo de promesa de pago, comisión o retribución de la otra Parte ni de
+terceras personas o entidades y se comprometen a no ofrecerlas ni a recibirlas en el futuro. A los efectos
+de esta cláusula, se entiende por Partes, las personas de cada una de ellas que hayan podido participar o
+intervenir de cualquier modo en la negociación o formalización del presente contrato como resultado o
+para entablar o mantener relaciones comerciales con la otra parte. Asimismo, ambas Partes se
+comprometen a no recibir, ni a realizar ofertas, promesas de pago u obsequios a cualquier tercera persona,
+entidad o la otra parte, con el fin de iniciar o continuar relaciones comerciales con la otra parte.
+DÉCIMA TERCERA. – FACTURACIÓN Y PAGO
+La facturación y pago por la prestación de los Servicios del presente Acuerdo se realizará por mes vencido
+con pago a treinta (30) días fecha factura, o según se indique en Anexo II o Anexo IV.
+DÉCIMA CUARTA. –REDETERMINACIÓN
+Las tarifas están sujetas a una revisión bimestral, donde se tomará como referencia el Índice de Precios al
+Consumidor (IPC). El ajuste por aplicar será acordado previamente junto al cliente en forma mutuamente
+satisfactoria. En caso de que el proceso de actualización se vea demorado, el ajuste acordado se aplicará
+retroactivamente a los meses correspondientes. En caso de que las Partes no lleguen a un acuerdo sobre
+la actualización, cualquiera de ellas podrá dar por terminado el Contrato sin que la otra Parte pueda tener
+derecho a indemnización o reclamo alguno.
+En caso de que cualquier cambio en las leyes, regulaciones o normativas aplicables después de la fecha
+de este contrato afecte significativamente los costos de cumplimiento de las obligaciones aquí
+establecidas, las partes acuerdan renegociar de buena fe los precios o tarifas para reflejar dichos
+cambios. La parte afectada deberá notificar por escrito a la otra parte, proporcionando la documentación
+que respalde el impacto del cambio legal en los costos.
+DÉCIMA QUINTA: Anticorrupción. Auditorías.
+15.1 El Proveedor declara y garantiza a MONTE VERDE S.A. que: (i) ha cumplido y cumplirá con las leyes
+anticorrupción y todas las demás leyes aplicables en el Territorio que prohíban el soborno, el blanqueo de
+activos y otras prácticas corruptas, como así también con la ley de prácticas corruptas en el extranjero de
+los Estados Unidos de Norteamérica (FCPA) y las Políticas de Compliance de Adium Pharma aplicables a
+MONTE VERDE S.A, detalladas en el Anexo V; y (ii) no ofrecerá, dará, pagará, prometerá pagar ni autorizará
+el pago de sobornos, pagos de influencia u otros incentivos ilegales o indebidos a ninguna persona, en
+cualquier forma (incluyendo regalos, viajes, entretenimiento, contribuciones, o de cualquier otra forma o
+mediante cualquier otro objeto de valor).
+15.2 MONTE VERDE S.A. podrá, además de iniciar las acciones legales a las que tenga derecho, rescindir
+inmediatamente cualquier contrato o acuerdo que rija entre las Partes en caso de recibir información que
+razonablemente evidencie, a su sola discreción, un incumplimiento de esta cláusula por nuestra parte. En
+caso de dicha terminación, MONTE VERDE S.A. no tendrá ninguna responsabilidad con nuestra Parte por
+cualquier honorario, reembolso u otra compensación bajo cualquier contrato, incluso por los servicios
+prestados anteriormente si es que los hubiera, con excepción de que la información utilizada por MONTE
+VERDE S.A. para rescindir el contrato sea falsa, tendenciosa o incorrecta, en ese caso deberá asumir la
+indemnización de aquellos daños que hubiera generado.
+15.3 Anualmente o en cualquier otro momento que MONTE VERDE S.A. razonablemente lo solicite, el
+Proveedor deberá entregar a MONTE VERDE S.A. un Certificado de Cumplimiento de Prácticas Comerciales
+Éticas, firmado por un funcionario de alto rango, que confirme el cumplimiento continuo del Proveedor,
+
+en todo los aspectos, con las disposiciones de este Artículo.
+15.4 El Proveedor deberá cooperar plenamente con MONTE VERDE S.A. en relación con la investigación
+de cualquier alegación, evento, hecho o suceso que cuestione su cumplimiento en relación con cualquier
+representación, garantía, convenio o compromiso bajo cualquier contrato que rija a las Partes. Si MONTE
+VERDE S.A. lo solicita, el Proveedor (i) nombrará a un ejecutivo con suficiente antigüedad y autoridad para
+responder a las solicitudes de MONTE VERDE S.A., y (ii) proporcionará de inmediato dichos registros e
+información, y proporcionará acceso a sus empleados, contratistas y consultores, siempre y cuando lo
+solicitado resulte razonablemente para las Partes, en relación con dicha investigación.
+15.5. El Proveedor reconoce y acepta que MONTE VERDE S.A., en virtud de relaciones contractuales con
+terceras partes (sus “Licenciantes”), así como por su propia normativa en materia de Compliance, está
+obligada a auditar a sus clientes y proveedores en el cumplimiento de las obligaciones bajo el presente
+contrato, como así también obtener el consentimiento de tales clientes y proveedores para aceptar tales
+auditorías por parte de MONTE VERDE S.A. y de sus Licenciantes. Expresamente, el Proveedor acepta: (i)
+dar cumplimiento a las Políticas de Compliance de MONTE VERDE S.A. y sus Licenciantes; (ii) ser auditado
+por MONTE VERDE S.A. y/o sus Licenciantes en el cumplimiento de las obligaciones bajo el presente, en
+horarios laborales y siendo notificado con razonable anticipación; y (iii) suministrar a MONTE VERDE S.A.
+y/o sus Licenciantes en cualquier momento durante la vigencia del presente, toda la documentación
+relacionada al cumplimiento de este contrato.
+DÉCIMO SEXTA: Protección de Datos Personales
+16.1 El Proveedor manifiesta conocer, cumplir y llevar a cabo el objeto de cualquier contrato con MONTE
+VERDE S.A. con alineación a todas las disposiciones legales aplicables en materia de Protección de Datos
+Personales. Sin perjuicio de lo anterior, el Proveedor se compromete especialmente a lo siguiente:
+a) tratar los datos personales que reciba o acceda en cumplimiento de cualquier contrato con MONTE VERDE
+S.A. de conformidad con el principio de finalidad, es decir, exclusivamente para los propósitos del eventual
+contrato y conforme con las indicaciones de quien en su caso tenga la calidad de “responsable” de los
+datos personales;
+b) implementar y mantener estrictas medidas de seguridad para proteger los datos personales de cualquier
+acceso o uso no autorizado de conformidad con la normativa aplicable.
+c) guardar el más estricto deber de confidencialidad y reserva con relación a los datos personales que reciba
+o acceda en cumplimiento de este contrato;
+d) suprimir inmediatamente los datos personales en los siguientes casos:
+o cuando se haya cumplido la finalidad para la que fueron recabados o accedidos;
+o cuando haya terminado la relación jurídica entre las partes; y
+o por instrucciones expresas y por escrito de quien tenga la calidad de “responsable” de los datos personales
+en el supuesto respectivo.
+e) abstenerse de transferir los datos personales salvo que:
+o cuente con la autorización previa, expresa y por escrito de quien tenga la calidad de “responsable” de los
+datos personales en su caso
+o la transferencia sea necesaria conforme a la normativa aplicable
+f) colaborar con MONTE VERDE S.A. en el cumplimiento de sus obligaciones en caso de corresponder, ej.
+cumpliendo con pedios de acceso, rectificación, supresión, actualización, etc.; de datos o bien en el marco
+de incidentes de seguridad, investigaciones, etc.
+En el supuesto de que el Proveedor incumpla los principios o disposiciones de cualquier contrato con
+MONTE VERDE S.A. o de la normativa vigente en relación a datos personales, se obliga a responder
+
+por las
+
+infracciones, sanciones, daños y/o perjuicios, reclamaciones, acciones o procedimientos, sean estas
+iniciadas por los titulares de los datos, entidad de control en la materia o cualquier tercero, debiendo
+mantener indemne a MONTE VERDE S.A. y sus filiales por cualquier reclamación de terceros fundada en el
+incumplimiento de las normas a que se refiere esta estipulación.
+16.2 Adicionalmente a lo anterior, el Proveedor declara conocer la relación comercial que existe entre
+MONTE VERDE S.A. y sus Licenciantes por lo que consiente expresamente que MONTE VERDE S.A. pueda
+compartir o dar acceso a sus datos personales a tales compañías, así como con entidades que den servicios
+a MONTE VERDE S.A. de almacenamiento de datos, por lo que su información personal podría ser
+transferida a servidores del exterior, incluyendo a países que no proporcionen niveles adecuados de
+protección en materia de datos personales.
+DÉCIMO SÉPTIMA: Ciudadanos Especialmente Designados
+Las transacciones de MONTE VERDE S.A. están alcanzadas por las sanciones comerciales de EE. UU. que
+prohíben tratar con personas y entidades vinculadas con gobiernos de países sujetos a embargo o
+sancionados, terroristas u organizaciones terroristas, traficantes de narcóticos u otras partes prohibidas
+(conocidos como ciudadanos especialmente designados (SDN, por sus siglas en inglés).
+El Proveedor se asegurará que todas sus transacciones bajo cualquier relación con MONTE VERDE S.A. que
+involucren a terceros no estadounidenses serán revisadas por él en la Lista SDN mantenida por la Oficina
+de Control de Activos Extranjeros (OFAC) del Departamento del Tesoro de los EE. UU. para confirmar que
+la transacción no involucra a una parte prohibida. La Lista SDN puede ser consultada en la siguiente
+dirección:
+https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx
+Adicionalmente, la Lista de Personas Restringidas del Departamento de Comercio de EE. UU. puede ser
+consultada en la siguiente dirección:
+https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern
+DÉCIMO OCTAVA: Otras sanciones y restricciones al comercio.
+18.2 El Proveedor declara y garantiza que sus directores, funcionarios ejecutivos, agentes ni ninguna
+persona que tenga una participación mayoritaria en él son (i) personas objeto de sanciones comerciales o
+financieras en virtud de las leyes y reglamentos de las Naciones Unidas , los Estados Unidos, la Unión
+Europea y sus Estados miembros, el Reino Unido o cualquier otra jurisdicción que sea aplicable, incluidas,
+entre otras, las personas designadas en el Departamento de EE. UU. del Tesoro, la Lista de Nacionales
+Especialmente Designados y Otras Personas Bloqueadas y la Lista de Sanciones Consolidadas de la Oficina
+de Control de Activos Extranjeros, las Listas de Sanciones de No Proliferación del Departamento de Estado
+de EE. UU., las Listas de Sanciones Financieras de la ONU, la Lista Consolidada de Personas, Grupos y
+Entidades a las Sanciones Financieras de la UE y las Listas Consolidadas de Objetivos de Sanciones
+Financieras del Tesoro de HM del Reino Unido; (ii) constituida o con sede en, u organizada bajo las leyes
+de un territorio sujeto a sanciones integrales de EE. UU. (cada uno, un "Territorio Sancionado")
+(actualmente, Cuba, Irán, Crimea, Corea del Norte, Siria, Sudán y la región de Crimea, pero sujeto a cambiar
+en cualquier momento) o (iii) directa o indirectamente de propiedad o control de dichas personas (en
+conjunto, "Persona Restringida"). El Proveedor además declara y garantiza que notificará a MONTE VERDE
+S.A. por escrito de inmediato si él o cualquiera de sus directores, funcionarios ejecutivos, agentes,
+accionistas
+o cualquier persona que tenga una participación mayoritaria en él se convierte en una Persona restringida
+o si el Proveedor pasa a ser propiedad o estar controlado directa o indirectamente por una o más Personas
+Restringidas.
+
+18.2. El Proveedor también acepta que, durante la vigencia de todo y cualquier acuerdo con MONTE VERDE
+S.A. las Partes revisarán y actualizarán esta cláusula de vez en cuando para garantizar que los requisitos y
+restricciones de las sanciones comerciales y las leyes y reglamentos de exportación aplicables a ambas
+Partes debido a sus eventuales compromisos contractuales continúan reflejándose.
+18.3. El Proveedor acepta, y se asegurará de que los Productos no se fabricarán, usarán, venderán,
+exportarán, reexportarán, transferirán ni pondrán a disposición, directa o indirectamente, a o en beneficio
+de un territorio sancionado o una persona restringida sin la aprobación previa por escrito de MONTE
+VERDE S.A..
+DÉCIMO NOVENA: Non solicitation.
+Durante la vigencia del acuerdo y hasta un período de dos (2) años, a contar a partir de la terminación de
+este, MONTE VERDE S.A. no deberá, directa o indirectamente, solicitar, inducir o intentar inducir a
+cualquier empleado, cliente o proveedor de IT PATAGONIA a dejar de trabajar en ella o a cambiar su
+relación comercial con IT PATAGONIA.
+
+ANEXO II
+DESCRIPCIÓN DE LOS SERVICIOS
+La presente propuesta considera la contratación de un equipo de profesionales para desempeñarse como
+parte del servicio solicitado por el cliente.
+1. SERVICIO
+Los Servicios se desempeñarán bajo las directrices y pautas establecidas por el CLIENTE, cumpliendo con
+las solicitudes realizadas de manera oportuna y brindando apoyo a los proyectos corporativos
+Especialidades consideradas en el servicio:
+Especialidad Experiencia Cantidad
+Soporte IT Semi Senior 1
+2. DURACIÓN
+El presente entrará en vigor el día 01 de febrero de 2024 y tendrá una duración de doce (12) meses,
+finalizando a su vencimiento. Los derechos y obligaciones de confidencialidad, protección de datos e
+indemnidad del Proveedor en favor del Cliente frente a reclamos laborales continuarán en vigor tras la
+extinción del presente.
+3. PERSONAS Y DOMICILIOS DE CONTACTO
+A los efectos del presente, las Partes designan expresamente como domicilios hábiles para la práctica de
+comunicaciones los señalados a continuación.
+Cliente: MONTE VERDE S.A.
+SA Nombre y apellido:
+Dirección: Ruta 40 S/N Esq. Calle 8, Pocito, Sanchez de
+Loria, SAN JUAN (CP 5427)
+Planta de Trabajo: Las instalaciones donde se brindaría el
+servicio seria en planta Cramer 4130.
+e-mail:
+Todas las comunicaciones remitidas vía email deberán ser enviadas con copia a:
+IT PATAGONIA S.A.
+Nombre y apellido: Sebastian Biagini
+Dirección: Av. Sáenz 17 Piso 6
+e-mail: comercial@itpatagonia.com
+Cualquier modificación de los anteriores domicilios deberá ser previamente comunicada a la otra parte
+para que surta efectos, con un plazo de al menos treinta (30) días.
+
+Aclaración y Cargo:
+
+ANEXO III MARCO TARIFARIO
+El proveedor tendrá derecho a percibir y el Cliente la obligación de abonar una retribución por los
+Servicios que el primero desarrolle al amparo del presente, de forma mensual, según las tarifas y
+condiciones detalladas a continuación:
+Coeficiente acordado: 2.0
+Se detalla, tal y como se acuerda previamente junto al cliente, para la primer instancia de contratación semestral
+se establece una tarifa fija mensual, la cual será revisada previamente a la renovación de dicho servicio. El valor
+de la tarifa negociada es de $2.800.000 + IVA.
+Forma de pago: La facturación y pago por la prestación de los Servicios del presente Acuerdo se realizará a
+mes vencido con pago dentro de los 30 (treinta) días fecha factura.
+Las tarifas descritas en el cuadro tarifario anterior están expresadas en pesos (no incluye IVA).
+A tal fin, el proveedor remitirá dentro de los primeros cinco (5) días hábiles del periodo correspondiente,
+la factura del servicio adicionando exclusivamente el IVA aplicable, siendo de su cuenta los restantes
+impuestos, tasas y demás costes y gastos que pudieran derivarse de la prestación de los Servicios. Las
+Partes convienen que el pago se realice dentro de los plazos mencionados con anterioridad a contar
+desde la recepción de la factura, mediante transferencia bancaria a la cuenta informada por el proveedor.
+Las facturas que no sean canceladas puntualmente a su vencimiento devengarán un interés equivalente
+a la Tasa Activa Efectiva Anual que el Banco de la Nación Argentina cobra para Giros en Descubierto en
+Cuenta Corriente no autorizado previamente, más un 3% adicional en concepto de gastos administrativos.
+Los precios no contemplan ninguna previsión correspondiente a impuestos nuevos que pudieran crearse,
+como tampoco el incremento de alícuotas vigentes. Por lo tanto, cualquier modificación de los mismos
+incidirá directamente en el precio cotizado. Cualquier variación a futuro de las leyes vigentes que incurra
+en mayores o menores costos para el proveedor serán comunicadas al Cliente. En tal caso, si las Partes
+no llegan a un acuerdo mutuamente satisfactorio que refleje esos mayores costos, la relación contractual
+quedará terminada sin que ello genere derecho a indemnización o reclamo de ningún tipo
+Horas adicionales de servicio: El precio de las horas adicionales será a la tarifa vigente al momento de
+incurrirlas.
+Gastos de Traslado: El proyecto se realizará en las instalaciones del proveedor y/o del Cliente según se requiera.
+Los precios consignados incluyen los gastos de movilidad de nuestros consultores a estas instalaciones
+(informadas en este acuerdo). Los gastos de traslados (pasajes aéreos, taxis, pasajes, remises) y alojamiento
+(hoteles, teléfono, lavandería, alimento) de los consultores estará a cargo del cliente en caso de ser
+necesario realizar actividades fuera de instalaciones informadas en este documento por el cliente,
+debiendo ser acordados en todos los casos en forma previa y mutuamente satisfactoria.
+Instalaciones del Cliente:
+Ruta 40 S/N Esq. Calle 8, Pocito, Sanchez de Loria, SAN JUAN (CP 5427)
+PROCEDIMIENTO DE FACTURACIÓN
+Todas las facturas se emitirán a la razón social del Cliente.
+El proveedor procederá a emitir las facturas de acuerdo con lo descripto en el Marco Tarifario.
+El Cliente deberá enviar las instrucciones de envío y/o requisito de facturación y/o documentación a
+presentar juntamente con la factura dentro de los primeros veinte días de inicio del servicio.
+
+ANEXO IV
+Declaración Anticorrupción conforme reglas del Proveedor
+En IT Patagonia nos comprometemos a llevar adelante nuestro negocio basado en la tecnología, de
+una forma ética y responsable, siendo coherentes con nuestros valores corporativos y promoviendo
+los impactos positivos que forman parte del propósito de la empresa.
+Declaramos, enfáticamente, que tenemos tolerancia cero con acciones vinculadas a la corrupción y/o
+soborno, ofrecimiento, pago y/o cobro no apropiado por parte de las personas que trabajan en la empresa
+y/o en su representación. Por ejemplo:
+● Ofrecer, prometer o dar un soborno, sea dinero o cualquier otro objeto de valor, a personas, sean
+de entidades públicas o privadas.
+● Solicitar, acordar y/o aceptar de otra persona un pago de dinero o la entrega de un objeto de valor.
+Obsequios, atenciones y otros
+El intercambio de obsequios/atenciones menores u otro tipo de amabilidad, sólo es aceptable cuando es
+una conducta afín a la construcción de relaciones comerciales y forma parte de los usos y costumbres en
+al ámbito de los negocios.
+Dicho esto, las personas que forman parte de IT Patagonia tienen prohibido ofrecer y/o recibir obsequios,
+de cualquier naturaleza, con el objetivo de obtener un beneficio personal y/o para la empresa.
+Así, ante cualquier conducta relacionada, es fundamental que quede claro que sólo puede darse si de
+ninguna manera es interpretado como un intento de influenciar en la decisión de un tercero para obtener
+un beneficio personal y/o para la empresa.
+El proveedor lleva adelante negocios solo con clientes y proveedores de buena reputación, porque
+disponen de fondos provenientes de actividades legitimas y/o no infringen la ley y/o no se los vinculan con
+el financiamiento del terrorismo y/o no realizan acciones que puedan afectar a la comunidad.
+Debe denunciarse, a la misma casilla de correo (rrii@itpatagonia.com), cualquier tipo de sospecha de
+conducta contraria a esta declaración. Una potencial infracción a esta declaración, podrá originar la
+apertura de un sumario y ser considerada una falta grave, siguiendo el reglamento interno de IT
+Patagonia.
+La presente declaración es obligatoria para todas las personas que forman parte de la empresa y/o
+actúan en representación de esta y, tiene como objetivo, seguir desarrollando buenas prácticas para la
+gestión de un gobierno corporativo transparente.
+
+ANEXO V
+Políticas de Compliance de Adium Pharma aplicables a MONTE VERDE S.A.
+Código de Ética
+Política Anticorrupción
+</propuesta>
+
+### PASO 4: Aplicación de Criterios de Decisión
+Para determinar la promoción, considera:
+
+**PROMOVER SI:**
+- El proyecto encaja claramente en una de las categorías (a)(i), (a)(ii), etc.
+- Se trata de desarrollo de software registrable, servicios de valor agregado, o soluciones innovadoras
+- Tiene potencial de exportación o aplicación en mercados externos
+- Genera valor agregado tecnológico significativo
+
+**NO PROMOVER SI:**
+- No encaja en ninguna categoría específica
+- Es principalmente soporte técnico para mercado interno
+- Se trata de servicios básicos sin valor agregado tecnológico
+- Es mantenimiento rutinario de sistemas existentes
+
+## FORMATO DE RESPUESTA
+
+Proporciona tu análisis en el siguiente formato JSON exacto:
+
+```json
+{
+  "Promovido": "[Promovido/No promovido]",
+  "Analisis_promovido": "[Promovido/No promovido]",
+  "Observaciones_analisis_promovido": "[Si promovido: 'Promovido - Inciso A (X)' / Si no promovido: 'No promovido - {razón específica}']",
+  "IA_Razonamiento": "[Documenta tu proceso de análisis paso a paso: qué información evaluaste primero, cómo llegaste a conclusiones, qué inferencias hiciste, si hubo puntos de decisión complejos]",
+  "IA_Conclusion": "[Indica el nivel de confianza en tu decisión y si fue directa o requirió análisis complejo]",
+  "IA_Observaciones": "[SOLO incluye aspectos metacognitivos: inconsistencias detectadas entre documentos, ambigüedades encontradas, información faltante que dificultó el análisis, inferencias que tuviste que hacer, limitaciones en los datos proporcionados, o casos donde la decisión fue borderline]"
+}
+```
+
+## GUÍA PARA CAMPOS IA_*
+
+**IA_Razonamiento:** Documenta tu proceso mental interno:
+- ¿Qué evaluaste primero?
+- ¿Hubo información contradictoria?
+- ¿Qué te llevó a la conclusión final?
+- ¿Tuviste que hacer inferencias por falta de información explícita?
+
+**IA_Conclusion:** Evalúa tu propio análisis:
+- ¿Qué tan confiado estás en la decisión? (Alta/Media/Baja confianza)
+- ¿Fue una decisión clara o borderline?
+- ¿Requirió análisis complejo o fue directa?
+
+**IA_Observaciones:** ÚNICAMENTE incluye problemas del proceso de análisis:
+- Inconsistencias entre formulario y propuesta
+- Información ambigua o contradictoria  
+- Datos faltantes que complicaron la evaluación
+- Casos donde múltiples categorías podrían aplicar
+- Decisiones que estuvieron muy ajustadas (borderline)
+- Si NO hubo problemas metacognitivos, escribe "Ninguna"
+
+## EJEMPLOS DE DECISIONES
+
+**CASO PROMOVIDO:**
+```json
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido", 
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero verifiqué si encajaba en desarrollo a medida (iv). La propuesta técnica describía claramente arquitectura de microservicios y APIs custom, lo cual confirmó valor agregado tecnológico. No hubo ambigüedad en la categorización.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en evidencia clara de desarrollo a medida con valor agregado.",
+  "IA_Observaciones": "Ninguna"
+}
+```
+
+**CASO NO PROMOVIDO CON INCONSISTENCIAS:**
+```json
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de soporte para mercado interno sin valor agregado tecnológico",
+  "IA_Razonamiento": "Inicialmente consideré si podría clasificarse como (ii) servicios de valor agregado, pero la propuesta técnica indica principalmente tareas de soporte y automatización básica. La descripción sugiere mantenimiento más que desarrollo.",
+  "IA_Conclusion": "Media confianza. Decisión requirió evaluar borderline entre soporte básico vs. valor agregado.",
+  "IA_Observaciones": "Inconsistencia detectada: formulario declara 'sistema de cómputo en la nube' pero propuesta técnica describe sistema on-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.

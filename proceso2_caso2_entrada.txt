@@ -1,0 +1,1023 @@
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es determinar si un proyecto debe ser promovido basándote en las categorías establecidas en la normativa vigente.
+
+## INSTRUCCIONES DE ANÁLISIS
+
+### PASO 1: Análisis de Categorización
+Evalúa si el proyecto encaja en alguna de las siguientes categorías de "Software y servicios informáticos y digitales":
+
+<categorias>
+a) Software y servicios informáticos y digitales, incluyendo: 
+(i) desarrollo de productos y servicios de software (SAAS) existentes o que se creen en el futuro, que se apliquen a actividades como e-learning, marketing interactivo, e-commerce, servicios de provisión de aplicaciones, edición y publicación electrónica de información; siempre que sean parte de una oferta informática integrada y agreguen valor a la misma; 
+(ii) desarrollo y puesta a punto de productos de software originales registrables como obra inédita o editada; 
+(iii) implementación y puesta a punto para terceros de productos de software propios o creados por terceros y de productos registrados; 
+(iv) desarrollo de software a medida cuando esta actividad permita distinguir la creación de valor agregado, aun cuando en los contratos respectivos se ceda la propiedad intelectual a terceros; 
+(v) servicios informáticos de valor agregado orientados a mejorar la seguridad de equipos y redes, la confiabilidad de programas y sistemas de software, la calidad de los sistemas y datos y la administración de la información y el conocimiento de las organizaciones; 
+(vi) desarrollo de partes de sistemas, módulos, rutinas, procedimientos, documentación, siempre que se trate de desarrollos complementarios o integrables a productos de software registrables; 
+(vii) servicios de diseño, codificación, implementación, mantenimiento, soporte a distancia, resolución de incidencias, conversión y/o traducción de lenguajes informáticos, adición de funciones, preparación de documentación para el usuario y garantía o asesoramiento de calidad de sistemas, entre otros, todos ellos a ser realizados a productos de software y con destino a mercados externos; 
+(viii) desarrollo y puesta a punto de software que se elabore para ser incorporado en procesadores (software embebido o insertado) utilizados en bienes y sistemas de diversa índole; 
+(ix) videojuegos; y 
+(x) servicios de cómputo en la nube;
+</categorias>
+
+### PASO 2: Revisión del Formulario
+Analiza la información del formulario completado, prestando especial atención a:
+- La característica seleccionada que mejor representa el servicio
+- Las observaciones del análisis promovido
+- Descripción del servicio y herramientas utilizadas
+- Destino del servicio (mercado interno vs. externo)
+
+<formulario>
+{
+  "nombre_propuesto_servicio": "SERVICIO DE SEGURIDAD AS400",
+  "servicio_final_esperado": "SERVICIO DE SEGURIDAD AS400",
+  "descripcion_servicio": "SERVICIO DE SEGURIDAD AS400",
+  "herramientas_a_utilizar": "- Implementación del scheduler ProBatch y- Armados de script para la automatización de copia de interfaces. -ejecución de los de las cadenas Batch. - Interlocución entre las gerencias de Desarrollo con Producción. - Diagramas de ejecución y mejoras en las dependencias entre Jobs",
+  "encargado_indicaciones": "Cliente",
+  "proveedor_herramientas": "Cliente",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "SERVICIO DE SEGURIDAD AS400- Es un servicio de Seguridad",
+  "caracteristica_principal": "Otorgamiento de servicios de cómputo en la nube"
+}
+</formulario>
+
+### PASO 3: Análisis de la Propuesta
+Revisa la propuesta técnica para entender completamente el alcance y naturaleza del proyecto:
+
+<propuesta>
+Banco Inversión y Comercio Exterior
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400
+OFERTA TÉCNICA
+20 de mayo de 2025
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 2
+Índice de la Oferta
+Tabla de contenido
+Quienes Somos 3
+3
+DATOS DE LA EMPRESA: 8
+DATOS GENERALES DE LA EMPRESA 8
+NOMINA DE AUTORIDADES: 9
+CONSTITUCIÓN DE DOMICILIO 9
+Declaraciones Juradas: 10
+Empresas que confían en nosotros 11
+Constancia de CUIT: 12
+IIBB – Convenio Multilateral: 13
+EXENCION IIBB 14
+15
+Certificación ISO: 18
+INFRAESTRUCTURA 19
+Experiencia y Trayectoria 20
+CLIENTES DEL SECTOR FINANCIERO 20
+PRINCIPALES CLIENTES 20
+SERVICIOS SIMILARES 22
+Especificaciones Generales 23
+ANÁLISIS Y ESTIMACIÓN 23
+EJECUCIÓN DEL SERVICIO 23
+IMPLEMENTACIÓN 25
+metodología de trabajo 26
+comunicación 26
+RESPONSABILIDADES 28
+GARANTÍA TÉCNICA 29
+profesionales implicados. 29
+ANEXO I 30
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 3
+QUIENES SOMOS
+
+BANCO BICE
+CONCURSO DE PRECIOS N°36/2024
+SERVICIO DE SOPORTE MULTIPLATAFORMA BICE
+4
+Quienes somos
++ 31 años
+de experiencia en la industria
+Somos una empresa de servicios de
++ 80 clientes tecnología B certificada.
+93% vuelven a elegirnos
+Acompañamos la evolución digital con
++
+700 Patagonians innovación y servicios de calidad mientras
+contribuimos al desarrollo del talento y
+de industria IT.
+4 Oficinas
+en Argentina, Uruguay, Perú
+IT Patagonia es una empresa de servicios del área de tecnología de información con una
+experiencia de más de 31 años en el mercado informático argentino.
+IT Patagonia, desde sus inicios, brinda servicios a empresas de primera línea en Argentina.
+actualmente Agea, Nissan , Banco Macro, Banco Galicia, BNA, Banco Ciudad de Buenos Aires,
+Banco Santander, Banco Hipotecario, BICE, , Megatlon, , Sancor, ScotiaBank (Uruguay), Asofarma,
+Telam, Banco ICBC, entre otras.
+IT Patagonia cuenta actualmente con un staff de más de 500 profesionales, mucho de ellos ha
+participado en proyectos de gran envergadura, desarrollados en otros países como Brasil, Chile,
+Colombia, EEUU, Uruguay.
+La excelencia de los servicios brindados permitió fortalecerse en diversas áreas del mercado, tales
+como banca, telecomunicaciones, industria, servicios públicos y gobierno.
+IT Patagonia mantiene desde 2008, procesos y servicios certificados en calidad. Inicialmente
+bajo las Normas de Calidad IRAM-ISO 9001/2000 y actualmente bajo las normas ISO 9001/2015
+(certificado se encuentra en antecedentes técnicos):
+Certificaciones
+Gestión de Calidad Empresa B
+Tenemos certificado nuestro sistema de gestión de Nuestro compromiso con la
+calidad. Los procesos alcanzados por esta certificación sustentabilidad nos llevó a redefinir el
+son: concepto de éxito.
+● Mantenimiento de Aplicaciones
+● Gestión de portfolio de proyectos de IT Ponemos nuestro foco en el equilibrio
+● Selección y Provisión de Capital Humano entre propósito y negocio. Somos una
+Empresa B certificada.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 5
+Certificación ISO 9001 – 2015
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 6
+IT Patagonia, a inicios de 2010, abre su nueva Unidad de Servicios en Montevideo – Uruguay,
+brindando servicios al Scotiabank.
+IT Patagonia, desde principios de 2022 está certificada como empresa B de triple impacto con el
+propósito de ser una mejor empresa para el mundo, promoviendo la innovación social, medio
+ambiental y económica, contribuyendo así al desarrollo sostenible de nuestro planeta.
+A través del servicio propuesto por IT Patagonia, BICE, contará con una empresa idónea,
+infraestructura acorde, profundo conocimiento del sector de servicios informáticos y con recursos
+calificados y adecuados a sus necesidades para lograr exitosamente los objetivos aquí solicitados.
+1 IT Patagonia es un Spin off de Buenos Aires System (BAIS)
+Soluciones
+Somos especialistas en arquitectura y desarrollo de software en Cobol, Java, .Net y PHP.
+Contamos con una gran diversidad de servicios, cuya excelencia nos permitió ganar clientes y
+posicionarnos en diversos mercados como banca, telecomunicaciones, industria, servicios
+públicos y gobierno. Trabajamos sobre los siguientes verticales:
+Mayor información sobre nuestros servicios en: https://www.itpatagonia.com/servicios/
+Sustentabilidad
+Triple impacto
+Nuestro compromiso con la sustentabilidad nos llevó a redefinir el concepto de éxito.
+Ayudamos a las organizaciones a evolucionar poniendo nuestro foco en el equilibrio entre
+propósito y negocio.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 7
+Visión:
+Ser la empresa elegida por los profesionales de IT como el mejor espacio para trabajar
+por que nos identifican los mismos valores y un referente en el mercado por nuestro
+compromiso con la industria, con los servicios que brindamos a nuestros clientes y la flexibilidad
+para adaptarnos a sus necesidades.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 8
+Misión:
+Trabajamos con pasión todos los días en ser una mejor empresa para el mundo,
+focalizados en la inclusión social y en la generación de oportunidades de empleo, ofreciendo
+soluciones tecnológicas de calidad, agregando valor a nuestros clientes.,
+El propósito
+de IT Patagonia es Contribuir con el desarrollo sostenible a través de la
+tecnología y la educación.
+DATOS DE LA EMPRESA:
+DATOS GENERALES DE LA EMPRESA
+Razón Social: IT PATAGONIA S.A.
+Fecha de Constitución: Ciudad Autónoma de Buenos Aires 24/10/2002
+Inscripción Nr. 12736
+CONTRATO SOCIAL: Reforma integral del estatuto se encuentra en documentos Legales
+Duración: 99 años
+Objeto: La sociedad tiene por objeto realizar por cuenta propia, de terceros o asociada a
+terceros las siguientes actividades:
+a) COMERCIALES: Compra, venta, importación, exportación, reparación, fabricación, comercialización,
+consignación, comisión, representación y servicios por cuenta propia y/o de terceros y/o asociada a
+terceros de máquinas, equipos de oficina, administración, computación, como así todo tipo de servicios de
+apoyo y asesoramiento sobre lo anterior, como ser promoción, estadística, estudios e investigación de
+mercado, análisis de sistemas de computación de datos, programación técnica administrativa, desarrollo
+de software y organización empresarial, valuaciones y costos de todo tipo de empresas oficiales y/o
+privadas, nacionales y/o extranjeras, comerciales y/o industriales y/o financieras.
+Fecha de inicio de actividades: 01/11/2002
+Actividades:
+Actividad principal: 620100 (F-883) SERVICIOS DE CONSULTORES EN INFORMÁTICA Y
+SUMINISTROS DE PROGRAMAS DE INFORMÁTICA
+Actividad secundaria: 262000 (F-883) FABRICACIÓN DE EQUIPOS Y PRODUCTOS
+INFORMATICOS.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 9
+NOMINA DE AUTORIDADES:
+Los mandatos finalizan en octubre 2025
+Directivos Nac. Cuit/DNI Cargo Desde
+Argentin 01/07/201
+Marcelo Carlos Cima 20-16580146-7 Presidente
+a 6
+Argentin 01/04/202
+Fernando Manuel Tormo 23-33204536-9 Director Suplente
+a 2
+Fabián Tatasciore Argentina 20-16199070-2 Director Titular 01/04/2016
+Claudio Marcelo Bianco Argentina 20-17031119-2 Director Titular 01/06/2017
+Carolina Elizabeth Olivera Argentina 27-28042723-9 Director Titular 01/04/2016
+20-32028353Maximiliano Casalaspro argentina Director Titular 01/06/2018
+2
+Julio Ramón Lanzani Argentina 20-11911987-2 Director Titular 01/04/2022
+* Último Acta de designación de autoridades se encuentra en los documentos legales.
+CONSTITUCIÓN DE DOMICILIO
+CUIT: 30-70812247-1
+RAZÓN SOCIAL IT PATAGONIA S.A.
+REAL: AV. SÁENZ 17 – 6TO PISO – C.A.B.A.
+COMERCIAL: AV. SÁENZ 17 – 6TO PISO – C.A.B.A.
+ELECTRÓNICO: comercial@itpatagonia.com
+ELECTRÓNICO ftormo@itpatagonia.com
+alternativos: cbianco@itpatagonia.com
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 10
+Declaraciones Juradas:
+Se adjunta las DDJJ solicitadas en documentos legales a parte.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 11
+Empresas que confían en nosotros
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 12
+Constancia de CUIT:
+30-70812247- I.V.A. Responsable Inscripto
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 13
+IIBB – Convenio Multilateral:
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 14
+EXENCION IIBB
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 15
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 16
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 17
+Nombre y apellido: Fernando Manuel Tormo
+Fecha de Nacimiento: 27 de Julio 1987
+Nacionalidad: Argentino
+Domicilio Real: Paraguay 4445 13 piso 3 - Palermo
+Domicilio Constituido: Av. Sáenz 17 6to piso - 1437 – CABA
+Estado civil: Soltero
+D.N.I: 33. 204.536 (copia adjunta en documentos legales)
+CUIT: 23-33. 204.536-9
+Poder: copia adjunta en documentos legales
+Correo electrónico: ftormo@itpatagonia.com
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 18
+Certificación ISO:
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 19
+INFRAESTRUCTURA
+IT Patagonia cuenta con una infraestructura montada en dos sitios con redundancia y alta
+disponibilidad.
+Cuenta también con un servicio de almacenamiento seguro en la nube el cual los colaboradores
+pueden utilizar.
+Durante el período de pandemia 90% del personal de IT Patagonia viene trabajando
+remotamente sin inconvenientes.
+EXPERIENCIA Y TRAYECTORIA
+CLIENTES DEL SECTOR FINANCIERO
+Entidades Financieras Desd Hast
+e a
+1 ICBC 1989 act.
+2 Banco Macro (ex Banco Bisel) 2006 act.
+3 Banco Macro (Capital) 2007 act.
+4 Banco Macro (ex-Banco de Tucumán) 2008 act.
+2008 2009
+5 Banco Comafi
+2015 Act
+6 Banco Itaú 2009 act
+7 ScotiaBank (UY) 2010 act.
+2009 2012
+8 Banco Ciudad de Bs.As.
+2019 act.
+9 Banco Coinag 2015 act.
+10 Banco Galicia 2021 act
+11 Banco de Inversión y Comercio
+2020 act.
+Exterior
+2004 2006
+12 Banco Columbia
+2019 act
+1998 2002
+13 Santander Rio
+2022 act.
+14 Banco Mariva 2018 2019
+15 Banco Industrial 2014 2016
+2005 2008
+16 Banco Hipotecario
+2013 2018
+17 Prosegur 2007 2016
+18 Banco de la Pcia de Córdoba 2003 2005
+19 ING Bank 2001 2001
+2 Credicoop
+2000 2000
+0
+21 ABN Amro Bank 1998 2005
+22 Banco de la Pcia de Bs. Aires 1995 2001
+1995 1999
+23 Banco Nación
+2002 2003
+IT Patagonia es un Spin off de Buenos Aires System (BAIS)
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 20
+PRINCIPALES CLIENTES
+P
+C
+r
+li
+i
+e
+n
+n
+c
+t
+ip
+es
+a les
+País CUIT Ramo % Ventas
+B
+qu
+ie
+e
+n
+a
+e
+d
+s/
+q
+s
+u
+er
+ie
+v
+r
+.
+e
+Cont acto
+ICBC Argentina 30-70944784-6 banca 43,46% servicios IT
+J
+T
+u
+es
+a
+t
+n
+in
+M
+o
+a nuel
+E- mail Contacto juanmanuel.testino@icbc.com.br
+T
+C
+e
+o
+l
+n
+é
+t
+fo
+a
+n
+ct
+o
+o
+4820-2008
+B
+Ar
+a
+g
+n
+e
+c
+n
+o
+t
+I
+in
+ta
+a
+u
+Argentina 30-5801894-1 banca 17,60% servicios IT Carlos Di Bello
+E- mail Contacto carlos.dibello@itau.com.ar
+T
+C
+e
+o
+l
+n
+é
+t
+fo
+a
+n
+ct
+o
+o .
+4
+55
+3
+2
+7
+2
+8 -8400 / 4320Banco Macro Argentina 30-50001008-4 banca 5,00% servicios IT Mariano Repetto
+E- mail Contacto marianorepetto@macro.com.ar
+T
+C
+e
+o
+l
+n
+é
+t
+fo
+a
+n
+ct
+o
+o
+5222-7711 / 6500
+Banco Comafi Argentina 30-60473101-8 banca 5,00% servicios IT Ernesto Ganchegui
+E- mail Contacto ernesto.ganchegui@comafi.com.ar
+T
+C
+e
+o
+l
+n
+é
+t
+fo
+a
+n
+ct
+o
+o
+5282-1278
+ANTECEDENTES EN EL BICE
+(2019 a la fecha)
+Servicio de procesamiento y mejora continua cadena Batch – Herramienta OPTI
+Cantidad de profesionales: 2 consultores Periodo: 2019 – Finales del 2023
+Alcance:
+- Servicio de Procesamiento
+- Implementación del scheduler ProBatch.
+- Armados de script para la automatización de copia de interfaces.
+- Paralelismo de Jobs para mejorar la concurrencia y ejecución de los de las cadenas Batch.
+- Interlocución entre las gerencias de Desarrollo con Producción.
+- Diagramas de ejecución y mejoras en las dependencias entre Jobs que permitan ejecutar solo lo
+necesario en el camino crítico.
+Scheduler: ProBatch
+Mejora Promedio Obtenida: No aplica por tipo de servicio
+Ambientes: Mainframe, AS400, COBOL, DB2, Windows, SQL Server, Oracle, SAP.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 21
+ESPECIFICACIONES GENERALES
+Este documento contiene una propuesta técnica cuyo objeto es brindar un servicio seguridad
+de AS400
+El alcance será de un servicio de horas de consultoría y soporte, además de relevar y analizar la
+seguridad en el sistema IBM i.
+Estos servicios serán brindados por un profesional de IT Patagonia, desde sus propias oficinas
+bajo un esquema híbrido siendo las oficinas del BICE sito en Bartolomé Mitre 836 (C.A.B.A.) el
+lugar presencial y se trabajará sobre la infraestructura informática, las aplicaciones y los
+servicios de Sistemas del Banco. Se mantendrán reuniones virtuales y se trabajará de manera
+coordinada con los equipos de Desarrollo del BICE, a través de comunicación digital y
+telefónica según corresponda.
+ANÁLISIS Y ESTIMACIÓN
+Las estimaciones para llevar adelante el servicio, se basa en los siguientes supuestos
+que se citan a continuación:
+• Revisión del actual esquema de Seguridad de plataforma IBM i, en el
+entorno de Producción.
+• Evaluación de las políticas de Seguridad vigentes, y su aplicación en la
+plataforma IBM i.
+• Asesoramiento y soporte en la implementación del plan de acción.
+• Análisis de cuentas de mayor privilegio utilizadas mediante sobres de
+emergencia, mejora de
+la auditoría y control de seguridad en el sistema IBM i
+• Informe de avances y tareas realizadas en forma mensual
+EJECUCIÓN DEL SERVICIO
+La atención de las tareas mencionadas en el Servicio se efectuará de manera remota siendo la
+presencialidad del servicio a demanda y coordinada con previo aviso del Cliente. La
+presencialidad será efectiva en las oficinas del BICE sito en Bartolomé Mitre 836 (C.A.B.A.), en el
+horario de lunes a viernes de 09.00 a 18:00 hs.
+A los fines de la programación de la prestación del servicio, el BICE y el adjudicatario
+programarán las necesidades de las horas mensuales con una anticipación de al menos 15 días
+de antelación.
+La forma de presentación del servicio será bajo el siguiente esquema:
+PLAN DE TAREAS
+• Revisión de las políticas de Seguridad vigentes.
+• Revisión de la actual Gestión de la Seguridad en IBM i.
+• Revisión de los procedimientos de Control de la Seguridad en IBM i.
+• Revisión de la política de Gestión de Cambios en IBM i.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 22
+• Análisis detallado de la información obtenida, identificación y clasificación de
+posibles riesgos.
+• Definición de la Estrategia de Seguridad a aplicar en plataforma IBM i.
+• Correr la herramienta Security Scan.
+• Documentación.
+• Capacitación.
+.
+El profesional asignado trabajará sobre los siguientes ambientes:
+Perfiles e usuario:
+• Autorizaciones Especiales
+• Contraseñas
+• Intervalo de caducidad e contraseñas
+• Perfiles de usuario sin *EXCLUDE en autorización *PUBLIC
+• Perfiles de usuario Deshabilitados
+• Perfiles de usuario Inactivos
+Valores de Sistema:
+• Valores de sistema y su grado.
+• System Value: QALWOBJRST - Allow object restore option
+• System Values: QAUDCTL, QAUDLVL - Auditing control – level
+• System Value: QCRTAUT - Create default public authority
+• System Value: QFRCCVNRST - Force conversion on restore
+• System Value: QSECURITY - System security level
+• System Value: QUSEADPAUT - Use adopted authority
+• System Value: QVFYOBJRST - Verify object on restore
+Usuario de herramientas de servicio:
+• Revisar usuarios de las SST/DST y configurarlos a medida
+• Autorizaciones sobre Objetos:
+• Autorización *PUBLIC sobre librerias y directorios
+• File Shares
+• Descripciones de trabajo y colas de trabajo sin tener *EXCLUDE en autorización
+*PUBLIC
+• *EXCLUDE
+Networking:
+• Exit programs
+• Puertos en escucha
+• Disponibilidad del sistema:
+• análisis de nivel de parches
+• Recomendaciones de reportes de PTF's (Vulnerabilidades)
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 23
+Siendo nuestra prioridad la continuidad del servicio, ante una ausencia imprevista de un recurso
+se tomarán las acciones necesarias para que en forma temporal otro recurso cubra la ausencia
+de este hasta la puesta en servicio del recurso de backup (en caso de ser necesario).
+El recurso abocado al servicio contara con el equipamiento necesarios para poder realizar sus
+tareas diarias. Este equipamiento será provisto por IT Patagonia, entendiéndose por
+equipamiento necesario una Notebook y enlace a internet.
+Los accesos a los sistemas necesarios para realizar las tareas deberán ser provistos por el BICE
+para cada recurso y será responsabilidad del BICE velar por correcto funcionamiento y permisos
+adecuados al rol.
+METODOLOGÍA DE TRABAJO
+Según lo solicitado por BICE, desde IT Patagonia se informa que el servicio cumple con los
+puntos mencionados a continuación:
+● Las tareas deberán realizarse con transferencia de conocimientos tecnológicos
+recíproca entre BICE e IT PATAGONIA.
+● BICE podrá cancelar la prestación del servicio profesional en cualquier momento de la
+duración del mismo, si la calidad del servicio entregado no se ajusta a lo requerido o por
+cualquier causa relacionada con el Banco.
+● BICE se reserva el derecho de realizar una entrevista y evaluación técnica a las personas
+para validar su experiencia y conocimiento sobre la tecnología y solicitar su reemplazo
+si dicha evaluación no es satisfactoria.
+● BICE podrá solicitar a IT PATAGONIA, el cambio de personal por otro profesional con la
+experiencia y conocimientos requeridos, cuando existan razones fundadas para ello; en
+este caso, IT PATAGONIA deberá proceder a su sustitución como máximo en el plazo de
+los 10 (diez) días hábiles de iniciado el consumo de horas del servicio. Las razones
+posibles podrían ser:
+o IT PATAGONIA notifica que un perfil asignado a BICE no podrá continuar
+brindando el servicio.
+o BICE considera que el servicio de un perfil no es brindado en forma satisfactoria
+(incumplimientos reiterados de horarios, faltas injustificadas, falta de disciplina o
+baja calidad técnica del servicio, por mencionar algunos).
+● Ante la interrupción del servicio de un perfil (por causas programadas o imprevistas) se
+notificará al BICE con el tiempo correspondiente para evitar demoras o falta de servicio.
+● BICE no asume ninguna responsabilidad originada por los vínculos laborales existentes
+entre IT Patagonia y sus empleados.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 24
+COMUNICACIÓN
+Al igual que en la planificación del proyecto, se deben establecer expectativas, y tanto el equipo
+del IT Patagonia, como las partes interesadas del cliente tienen que cumplir con sus
+responsabilidades para que la comunicación se desarrolle sin problemas.
+Proponemos para este servicio, un esquema de comunicación como el siguiente:
+Partes Esquema de comunicación propuesto
+Interesadas
+Referentes IT Whatsapp o teléfono: para coordinar reuniones y notificaciones de
+Patagonia - agenda. No para contenidos del relevamiento
+Referentes BICE
+Mail: para intercambio referido a:
+● dudas menores no resueltas en entrevistas
+● documentos de lectura
+● anticipo de temarios para reuniones
+Repositorio de proyecto:
+● Minutas de pedidos de ajuste, cuando correspondan
+Para contactarse con miembros del Comité Ejecutivo es siempre a
+través del Arquitecto y Coordinador de Servicios, a través de la mesa
+de seguimiento
+Equipo de Whatsapp o teléfono: para coordinar reuniones y notificaciones de
+trabajo agenda o cuestiones menores. No para contenidos del avance del
+proyecto o relativos al alcance.
+Mail: para intercambio referido a:
+● borradores de minutas de reunión
+● borradores de informes de avance
+● documentos de lectura
+● anticipo de temarios para reuniones
+Repositorio de proyecto:
+● Minutas de reuniones
+● Informes de avance
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 25
+La medición de la satisfacción del cliente, se basa en la revisión de la información recopilada en
+forma activa a través de una encuesta de satisfacción de cliente, realizadas mensualmente, o
+de acuerdo a las necesidades del servicio.
+Se consideran, además las observaciones recogidas directamente del cliente, a través de
+reuniones periódicas, las que en su conjunto son analizadas en conjunto, facilitando el
+seguimiento y acceso a los resultados obtenidos.
+RESPONSABILIDADES
+DEL BICE:
+Proveer cualquier entorno que se requiera para la prestación del servicio • Brindar los accesos y
+los permisos para acceder a los distintos ambientes para brindar la solución en forma integral.
+DE IT PATAGONIA
+El adjudicatario será responsable por los daños y perjuicios directos que provocare a terceros
+en sus personas o bienes, derivados de cualquier hecho propio o de las cosas que tiene bajo su
+cuidado, producidos a consecuencia o en relación con los servicios a su cargo.
+Deberá mantener ajeno de responsabilidad e indemne al BICE, frente a cualquier reclamo que
+se genere con relación a los daños y perjuicios de cualquier índole que pudieran sufrir por
+terceros como consecuencia y con relación a la ejecución del presente servicio.
+El adjudicatario deberá cumplimentar con las obligaciones que surgen del Art. 1256 del Código
+Civil y Comercial de la Nación:
+a. Ejecutar el contrato conforme a las previsiones contractuales y a los conocimientos
+razonablemente requeridos;
+b. Informar al BICE sobre los aspectos esenciales del cumplimiento de la obligación
+comprometida;
+c. Proveer los materiales adecuados que son necesarios para la ejecución del servicio;
+d. Utilizar diligentemente los materiales provistos por BICE e informarle inmediatamente en
+caso de que esos materiales sean impropios o tengan vicios que debiese conocer;
+e. Prestar el servicio en el tiempo convenido.
+f. Será obligación del adjudicatario la completa y total observancia de los Estándares
+Tecnológicos dictados por la Oficina Nacional de Tecnologías de Información (ONTI) y cumplir
+con los estándares definidos en la reglamentación del decreto 87/2017 del Ministerio de
+Modernización y con la Disposición 06/2019 de ONTI para la aplicación de las Pautas de
+Accesibilidad Web 2.0.
+g. Será obligación del adjudicatario proveer la información de cumplimiento normativo
+especificada en el anexo “Requerimientos de Cumplimiento Normativo”.
+h. Los productos y/o servicios deberán dar cabal cumplimiento a la Ley 25.326 de protección de
+datos personales, sus decretos reglamentarios, normas modificatorias y complementarias, y las
+que a futuro dicte la Dirección Nacional de Protección de Datos Personales de la Agencia de
+Acceso a la Información Pública, autoridad de aplicación de dicha ley.
+i. Seguridad Informática. Será obligación del adjudicatario la completa y total observancia de
+los “Requisitos de Seguridad para el Desarrollo y/o Adquisición de Aplicaciones” incluido en
+anexo.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 26
+En el supuesto que el adjudicatario violare la presente estipulación, será responsable por la
+totalidad de los daños y perjuicios que dicho eventual incumplimiento hubiere generado al
+BICE.
+GARANTÍA TÉCNICA
+IT PATAGONIA garantizará que todos los servicios de parametrización, configuración o
+personalización, suministrados en virtud del presente contrato, se encuentren libres de
+defectos atribuibles al diseño, los materiales, o la confección, o a cualquier acto u omisión de su
+parte que pudiera manifestarse en ocasión del uso normal de los servicios, en las condiciones
+imperantes en el país.
+Mantener la más absoluta reserva y confidencialidad respecto de todos y cada uno de los datos
+y/o información que le sean suministrados y/u obtenga del BICE con motivo del contrato,
+atendiendo lo estipulado en ley de Protección de Datos Personales N° 25.326, sus decretos
+reglamentarios, normas modificatorias y complementarias, y las que a futuro dicten la Dirección
+Nacional de Protección de Datos Personales de la Agencia de Acceso a la Información Pública,
+y la citada Agencia. Dicha obligación subsistirá aún extinguido el presente.
+Ejecutar el contrato conforme a las previsiones contractuales y a los conocimientos
+razonablemente requeridos. Informar al BICE sobre los aspectos esenciales del cumplimiento
+de la obligación comprometida, así mismo proveer los materiales adecuados que resulten
+necesarios para la ejecución del servicio. Utilizando diligentemente los materiales provistos por
+BICE e informar inmediatamente en caso de que esos materiales sean impropios o tengan vicios
+que debiese conocer.
+IT Patagonia prestará el servicio en el tiempo convenido, no delega ni encomienda al BICE
+ninguna gestión, obligación ni carga que le corresponda o pudiera corresponderle, que se
+relacione con el cumplimiento de las leyes y reglamentos que rigen los contratos de trabajo y
+aquellos relativos a las obligaciones impositivas, previsionales y/o profesionales a su cargo. De
+este modo, IT Patagonia se compromete a cumplir la totalidad de dichas normas y obligaciones,
+garantizando plena indemnidad al BICE frente a cualquier daño y/o perjuicio que pudieran
+generar a éste sus eventuales incumplimientos, relativos a las normas laborales, impositivas,
+previsionales y/o profesionales que rigen su actividad técnica y/o profesional y/o afectan al
+presente contrato.
+En tal sentido, dicho servicio poseerá un período de garantía, desde la fecha de recepción
+definitiva de los mismos en el lugar de entrega estipulado. Entendiéndose por período de
+garantía al espacio de tiempo que va desde la fecha de puesta en producción del proyecto y/o
+servicio hasta DOCE (12) meses calendario inmediatos, consecutivos y posteriores a la misma. El
+fin de la misma cubrirá cualquier momento durante la ejecución y/o vigencia de la contratación,
+los trabajos y/o servicios que fueran prestados en forma deficiente y/o no se cumpliera con los
+parámetros de calidad acordados por las partes en el marco del presente y/o con el plazo de
+ejecución.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 27
+PROFESIONALES IMPLICADOS.
+Los Curriculum Vitaes se encuentran en el documento ANEXO I.
+* La versión completa de los CV’s se presentarán una vez adjudicada la licitación.
+ANEXO I
+A continuación, se presta constancia de antecedentes de servicios similares aquellos que
+comprenden la trayectoria y experiencia de nuestro colaborador, perfil propuesto para la
+cobertura de este servicio.
+Perfil – Especialista Seguridad AS400
+Sergio Costenaro – DNI 27452212- Teléfono: 15-5495‑7644
+Contacto para referencias: +54 9 11 2235-5842 Maximiliano
+EXPERIENCIA LABORAL
+2021–Actual Kyndryl Argentina
+IBMi Technical Support Specialist
+▪ Soporte integral sobre la plataforma IBMi
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Soporte y control de IBM i para clientes de Uruguay principalmente (participación
+para otros clientes de LATAM y USA)
+▪ Coordinación de proyectos sobre IBMi (Upgrade, migración, parches)
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Participación de proyectos de migración a la Nube
+▪ Manejo de herramientas de replica, Mimix, Power HA (FlashCopy)
+2021–Actual IT Patagonia
+Consultor IBMi
+▪ Soporte integral sobre la plataforma IBMi
+▪ Informes de performance y capacidad .
+▪ Automatización y mejora de procesos Batch
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Soporte a equipos de desarrollo
+2020–2021 CDS Americas
+Consultor IBM i
+▪ Soporte integral sobre la plataforma IBM i
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Soporte y control de IBM i para clientes de Latinoamerica
+▪ Coordinación de proyectos sobre IBMi
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Soporte de Software de terceras partes en IBMi suite de HelpSystems (Robot
+Monitor/Alert/Space/Console), Rocket Software, Precisely
+▪ Manejo de herramientas de replica, Mimix, iTera, iCluster
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 28
+2016–2020 Banco Patagonia
+Coordinador de Producción
+▪ Gestión de equipo de trabajo incidentes e implementaciones
+▪ Dentro del equipo administramos plataformas SQL, Linux, Windows, Teradata,
+Control-M y IBMi.
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Soporte y control de IBMi
+▪ Coordinación de proyectos sobre iSeries
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Determinación de Problemas HW manejo DST/SST
+▪ Control de Producción y manejo de incidentes
+▪ Análisis de la ejecución Batch (ejecutado por Control-M), provisión de información
+y manejo de problemas
+▪ Operación de consola Control-M, planificación y parametrización de jobs.
+▪ Gestión y control de Proveedores (IBM, herramientas terceros)
+▪ Tareas de coordinación para nuevas instalaciones/modificaciones de
+infraestructura. Virtual (VMWare) y física.
+▪ Provisión de reportes y participación de Auditorías.
+▪ Manejo de problemas inter plataforma, participación en solución de problemas
+globales de infraestructura
+▪ Confección de procedimientos y documentación sobre procesos, instalaciones, etc.
+2014–2016 Banco Patagonia
+Administrador de base de datos ISeries y Controller
+▪ Soporte de Software de terceras partes en IBMi
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Soporte y control de IBMi
+▪ Coordinación de proyectos sobre iSeries
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Determinación de Problemas HW manejo DST/SST
+▪ Control de Producción y manejo de incidentes
+▪ Análisis de la ejecución Batch (ejecutado por Control-M), provisión de información
+y manejo de problemas
+▪ Operación de consola Control-M, planificación y parametrización de jobs.
+▪ Gestión y control de Proveedores (IBM, herramientas terceros)
+▪ Tareas de coordinación para nuevas instalaciones/modificaciones de
+infraestructura.
+▪ Provisión de reportes y participación de Auditorías.
+▪ Manejo de problemas inter plataforma, participación en solución de problemas
+globales de infraestructura
+▪ Confección de procedimientos y documentación sobre procesos, instalaciones, etc.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 29
+2012–2014 Banco ITAU Argentina
+Soporte administración de iSeries (Host Central)
+▪ Soporte de Software de terceras partes en IBMi
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Migración de SW y HW IBMi
+▪ Soporte y control de IBMi
+▪ Coordinación de proyectos sobre iSeries
+▪ Coordinación de upgrade de SW y HW en iSeries
+▪ Programación, Instalación y aplicación de PTF
+▪ Programación CL, confección de herramientas, automatización, etc.
+▪ Manejo de la herramienta iCluster (Rocket Software) para alta disponibilidad.
+▪ Manejo consola HMC, particiones lógicas (DLpar)
+▪ Determinación de Problemas HW manejo DST/SST
+2011–2012 IBM Argentina
+Soporte administración de iSeries (IBM Global Delivery Center)
+▪ Soporte técnico para cuentas de USA
+▪ Instalación y Soporte de OS/400 e i5/OS y aplicación de PTF’s.
+▪ Herramientas de backup BRMS TSM
+▪ Manejo de la aplicación MIMIX / OMS400 para alta disponibilidad.
+▪ Problem determination, manejo de herramientas de servicio.
+▪ Lenguajes de programación CLP
+▪ Manejo consola HMC, particiones lógicas (DLpar)
+▪ Configuración y administración de PM400.
+▪ Soporte y control de procesos de DRP
+▪ Administración MQ series
+2006–2011 HSBC Bank Argentina
+Midrange Technical Support
+▪ Soporte de Software de terceras partes en IBMi
+▪ Informes de performance y capacidad .
+▪ Soporte y control de procesos de DRP
+▪ Migración, soporte y control de IBMi
+▪ Coordinación de proyectos sobre iSeries
+▪ Coordinación de upgrade de SW y HW en iSeries
+▪ Instalación y aplicación de PTF
+▪ Administracion MQ series
+▪ Programación CL
+▪ Administración AIX, Linux
+▪ Control, armado e instalación AIX, Linux
+▪ Proyectos/Migracion sobre discos externos IBM (DS6800 DS8000)
+▪ Herramientas sobre AIX, Linux y IBMi: Websphere Application Server, Nagios,
+OMS400, PowerLock.
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 30
+2003–2006 IBM Argentina
+Coordinador de Operaciones ( Kraft Foods )
+▪ Personas a cargo: 4
+▪ Coordinador del Team de Operaciones
+▪ Informes de capacidad y performance .
+▪ Realización y mantenimiento de la documentación de todos los procesos
+involucrados.
+▪ Soporte y control de procesos de DRP
+▪ Migración de IBMi.
+▪ Coordinación de proyectos sobre iSeries
+▪ Coordinación de upgrade de SW y HW en IBMi
+▪ Soporte funcional y operacional para Latino América
+▪ Administracion de multiples LPAR (IBMi)
+▪ Mantenimiento, tunning y backup de las LPAR
+▪ Control y mantenimiento de SLA’s
+2001–2003 IBM Argentina
+Operador AS400
+▪ Operador Centro de Cómputos
+▪ Operador AS400
+▪ Administración NT/2000
+1999–2001 IBM Argentina
+Técnico soporte
+▪ Soporte On Site ( Help Desk ) Software y Hardware
+▪ Redes Novell Netware
+▪ Redes Windows NT 4.0
+▪ Operación Básica AS/400
+1998–1999 IBM Argentina
+Becado Secundario
+▪ Testeo y reparación de hardware ( PC )
+▪ Administración de entrada y salida de partes a Stock
+▪ Instalación y preparado de PC
+ESTUDIOS
+1993–1998 República Francesa ENET N° 4
+▪ Técnico en electrónica
+1999 IT College
+▪ Core Technologies Windows N
+2000 UBA ( abandonado )
+▪ Ingeniería en Sistemas
+2002 UBM
+▪ Fundamentos de Comunicación – AS400 WorkShop
+2005 Veritas
+▪ Backup Excec
+2007
+▪ AIX System Administración I
+2008 Veritas
+▪ Logical Volume Manager
+▪ Implementing Clusters (Veritas Cluster Server)
+
+BANCO BICE
+CONCURSO DE PRECIOS N°12/2025
+SERVICIO DE SEGURIDAD AS400 31
+2008 Linux Latinoamérica
+▪ Administración Linux
+2014 IBM
+▪ IBM PowerHA for I, Clustering, and IASP Implementation
+▪ IBM i Perfomance Management
+2021 IBM/Precisely
+▪ Certificaciones en plataforma IBM i, Mimix
+IDIOMAS
+Español:
+Nativo.
+Inglés:
+Nivel Bajo - Lectura/Escritura
+Portugues:
+Nivel Bajo.
+</propuesta>
+
+### PASO 4: Aplicación de Criterios de Decisión
+Para determinar la promoción, considera:
+
+**PROMOVER SI:**
+- El proyecto encaja claramente en una de las categorías (a)(i), (a)(ii), etc.
+- Se trata de desarrollo de software registrable, servicios de valor agregado, o soluciones innovadoras
+- Tiene potencial de exportación o aplicación en mercados externos
+- Genera valor agregado tecnológico significativo
+
+**NO PROMOVER SI:**
+- No encaja en ninguna categoría específica
+- Es principalmente soporte técnico para mercado interno
+- Se trata de servicios básicos sin valor agregado tecnológico
+- Es mantenimiento rutinario de sistemas existentes
+
+## FORMATO DE RESPUESTA
+
+Proporciona tu análisis en el siguiente formato JSON exacto:
+
+```json
+{
+  "Promovido": "[Promovido/No promovido]",
+  "Analisis_promovido": "[Promovido/No promovido]",
+  "Observaciones_analisis_promovido": "[Si promovido: 'Promovido - Inciso A (X)' / Si no promovido: 'No promovido - {razón específica}']",
+  "IA_Razonamiento": "[Documenta tu proceso de análisis paso a paso: qué información evaluaste primero, cómo llegaste a conclusiones, qué inferencias hiciste, si hubo puntos de decisión complejos]",
+  "IA_Conclusion": "[Indica el nivel de confianza en tu decisión y si fue directa o requirió análisis complejo]",
+  "IA_Observaciones": "[SOLO incluye aspectos metacognitivos: inconsistencias detectadas entre documentos, ambigüedades encontradas, información faltante que dificultó el análisis, inferencias que tuviste que hacer, limitaciones en los datos proporcionados, o casos donde la decisión fue borderline]"
+}
+```
+
+## GUÍA PARA CAMPOS IA_*
+
+**IA_Razonamiento:** Documenta tu proceso mental interno:
+- ¿Qué evaluaste primero?
+- ¿Hubo información contradictoria?
+- ¿Qué te llevó a la conclusión final?
+- ¿Tuviste que hacer inferencias por falta de información explícita?
+
+**IA_Conclusion:** Evalúa tu propio análisis:
+- ¿Qué tan confiado estás en la decisión? (Alta/Media/Baja confianza)
+- ¿Fue una decisión clara o borderline?
+- ¿Requirió análisis complejo o fue directa?
+
+**IA_Observaciones:** ÚNICAMENTE incluye problemas del proceso de análisis:
+- Inconsistencias entre formulario y propuesta
+- Información ambigua o contradictoria  
+- Datos faltantes que complicaron la evaluación
+- Casos donde múltiples categorías podrían aplicar
+- Decisiones que estuvieron muy ajustadas (borderline)
+- Si NO hubo problemas metacognitivos, escribe "Ninguna"
+
+## EJEMPLOS DE DECISIONES
+
+**CASO PROMOVIDO:**
+```json
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido", 
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero verifiqué si encajaba en desarrollo a medida (iv). La propuesta técnica describía claramente arquitectura de microservicios y APIs custom, lo cual confirmó valor agregado tecnológico. No hubo ambigüedad en la categorización.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en evidencia clara de desarrollo a medida con valor agregado.",
+  "IA_Observaciones": "Ninguna"
+}
+```
+
+**CASO NO PROMOVIDO CON INCONSISTENCIAS:**
+```json
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de soporte para mercado interno sin valor agregado tecnológico",
+  "IA_Razonamiento": "Inicialmente consideré si podría clasificarse como (ii) servicios de valor agregado, pero la propuesta técnica indica principalmente tareas de soporte y automatización básica. La descripción sugiere mantenimiento más que desarrollo.",
+  "IA_Conclusion": "Media confianza. Decisión requirió evaluar borderline entre soporte básico vs. valor agregado.",
+  "IA_Observaciones": "Inconsistencia detectada: formulario declara 'sistema de cómputo en la nube' pero propuesta técnica describe sistema on-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.

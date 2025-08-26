@@ -1,0 +1,8 @@
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de soporte técnico básico para mercado interno sin valor agregado tecnológico",
+  "IA_Razonamiento": "Primero analicé la categoría seleccionada en el formulario 'Otorgamiento de servicios de cómputo en la nube' que correspondería al inciso (x). Sin embargo, al revisar la propuesta técnica, encontré que se trata de un 'Servicio de Horas Profesionales Soporte IT-Analista de Soporte IT Semi Sr'. Evalué si podría encajar en el inciso (v) sobre servicios informáticos de valor agregado, pero la descripción indica claramente que es soporte técnico tradicional sin desarrollo de software, sin creación de productos registrables, y sin componentes de valor agregado tecnológico. La propuesta no menciona desarrollo, implementación de software, ni servicios especializados que agreguen valor tecnológico.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en que se trata claramente de servicios de soporte técnico básico que no encajan en ninguna de las categorías promovibles.",
+  "IA_Observaciones": "Inconsistencia significativa detectada: el formulario declara 'Otorgamiento de servicios de cómputo en la nube' como característica principal, pero toda la propuesta técnica describe exclusivamente servicios de soporte IT tradicional sin ninguna mención a servicios en la nube. Esta contradicción sugiere error en la categorización inicial del formulario."
+}

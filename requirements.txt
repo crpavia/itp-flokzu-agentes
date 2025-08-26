@@ -1,0 +1,6 @@
+boto3
+python-dotenv
+pdfplumber
+strands-agents
+strands-agents-tools
+

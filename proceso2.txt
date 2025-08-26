@@ -1,0 +1,313 @@
+[H[2J[3J _____ _       _               
+|  ___| | ___ | | __ _____   _ 
+| |_  | |/ _ \| |/ /|_  / | | |
+|  _| | | (_) |   <  / /| |_| |
+|_|   |_|\___/|_|\_\/___|\__,_|
+                               
+
+
+
+[INFO] Buscando casos en data/proceso2 ...
+[INFO] Casos encontrados (4):
+    caso1
+    caso2
+    caso3
+    caso4
+
+
+[INFO] Borrando JSON de salidas previas...
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando caso1 ...
+PDF procesado en 1.93 seg | modo=PLUMBER | archivo=/home/crp/Projects/itp-flokzu/data/proceso2/caso1/Propuesta.pdf
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: AltaCentroCostos_Datos
+Campos del modelo de datos:
+  - nombre_propuesto_servicio : Nombre propuesto de servicio
+  - servicio_final_esperado : Producto / Servicio final esperado
+  - descripcion_servicio : Breve descripción del servicio a brindar
+  - herramientas_a_utilizar : Lenguajes / Herramientas a utilizar
+  - encargado_indicaciones : ¿Quién es el encargado de dar las indicaciones a los colaboradores?
+  - proveedor_herramientas : ¿Quién proporciona las herramientas necesarias a los colaboradores (ej. computadora, email, etc.)?
+  - colaborador_percibe_beneficios : ¿El colaborador percibe los beneficios de IT Patagonia?
+  - c1 : Se trata de un SaaS
+  - c2 : Desarrollo realizado a medida a pedido del cliente
+  - c3 : Desarrollo propio comercializable como enlatado
+  - c4 : Otorgamiento de servicios de cómputo en la nube
+  - c5 : Desarrollo de un software a ser embebido en un hardware
+  - c6 : Desarrollo a fin de mejorar la seguridad de equipos y/o redes
+  - c7 : Implementación o puesta a punto en el cliente de un producto propio o creado por terceros y de productos registrados
+  - c8 : Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable
+  - informacion_adicional : Observaciones información adicional análisis promovido
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso2/caso1/Formulario.pdf
+Tamaño en bytes: 2564751
+
+*** LLAMANDO A MODELO IA ***
+Basándome en el documento, extraigo los siguientes datos para el formulario Alta de Centro de Costos:
+Tool #1: AltaCentroCostos_Datos
+
+{
+  "nombre_propuesto_servicio": "Servicio de Desarrollo - Proyecto rediseño de la experiencia digital",
+  "servicio_final_esperado": "Servicio de Desarrollo -",
+  "descripcion_servicio": "Servicio de Desarrollo - Proyecto rediseño de la experiencia digital",
+  "herramientas_a_utilizar": "Next.js,acompañados de TailwindCSS para el diseño responsivo y Axios o GraphQL para la comunicación eficiente con APIs. El backend de comercio electrónico se basará enAdobe Commerce Cloud (Magento 2.4.x), utilizando PHP 8.1+, MySQL y ElasticSearch",
+  "encargado_indicaciones": "IT Patagonia",
+  "proveedor_herramientas": "IT Patagonia",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "Copio respuesta del tecncio es correcto que solo esté la opción \"Desarrollo realizado a medida a pedido del cliente\". En cuanto a los 3 campos desplegables, el segundo campo las herramientas(pc y email son de itp) pero el cliente nos da todo el resto(infraestructura)",
+  "caracteristica_principal": "Desarrollo realizado a medida a pedido del cliente"
+}
+
+** 38793 CARACTERES, 648 LINEAS **
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es det
+...
+-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.
+```json
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido",
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero analicé la característica principal declarada en el formulario: 'Desarrollo realizado a medida a pedido del cliente', lo cual sugiere categoría (iv). Luego revisé la propuesta técnica que confirma desarrollo de una plataforma completa de e-commerce con arquitectura de microservicios, APIs REST, integración con múltiples sistemas externos (Salesforce, MercadoPago, etc.), frontend headless con Next.js, y backend en Adobe Commerce Cloud. El proyecto incluye desarrollo de software original con valor agregado tecnológico significativo: arquitectura DDD, APIs custom, middleware con Power Automate, y soluciones de integración complejas. Aunque la propuesta no menciona explícitamente cesión de propiedad intelectual, el contexto de 'desarrollo a medida' y la naturaleza del proyecto sugieren que encaja en categoría (iv).",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en evidencia clara de desarrollo a medida con alto valor agregado tecnológico y arquitectura compleja.",
+  "IA_Observaciones": "Ninguna"
+}
+```
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando caso2 ...
+PDF procesado en 1.50 seg | modo=PLUMBER | archivo=/home/crp/Projects/itp-flokzu/data/proceso2/caso2/Propuesta.pdf
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: AltaCentroCostos_Datos
+Campos del modelo de datos:
+  - nombre_propuesto_servicio : Nombre propuesto de servicio
+  - servicio_final_esperado : Producto / Servicio final esperado
+  - descripcion_servicio : Breve descripción del servicio a brindar
+  - herramientas_a_utilizar : Lenguajes / Herramientas a utilizar
+  - encargado_indicaciones : ¿Quién es el encargado de dar las indicaciones a los colaboradores?
+  - proveedor_herramientas : ¿Quién proporciona las herramientas necesarias a los colaboradores (ej. computadora, email, etc.)?
+  - colaborador_percibe_beneficios : ¿El colaborador percibe los beneficios de IT Patagonia?
+  - c1 : Se trata de un SaaS
+  - c2 : Desarrollo realizado a medida a pedido del cliente
+  - c3 : Desarrollo propio comercializable como enlatado
+  - c4 : Otorgamiento de servicios de cómputo en la nube
+  - c5 : Desarrollo de un software a ser embebido en un hardware
+  - c6 : Desarrollo a fin de mejorar la seguridad de equipos y/o redes
+  - c7 : Implementación o puesta a punto en el cliente de un producto propio o creado por terceros y de productos registrados
+  - c8 : Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable
+  - informacion_adicional : Observaciones información adicional análisis promovido
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso2/caso2/Formulario.pdf
+Tamaño en bytes: 190097
+
+*** LLAMANDO A MODELO IA ***
+Basándome en el documento proporcionado, extraeré los datos según el modelo de datos especificado:
+Tool #1: AltaCentroCostos_Datos
+
+{
+  "nombre_propuesto_servicio": "SERVICIO DE SEGURIDAD AS400",
+  "servicio_final_esperado": "SERVICIO DE SEGURIDAD AS400",
+  "descripcion_servicio": "SERVICIO DE SEGURIDAD AS400",
+  "herramientas_a_utilizar": "- Implementación del scheduler ProBatch y- Armados de script para la automatización de copia de interfaces. -ejecución de los de las cadenas Batch. - Interlocución entre las gerencias de Desarrollo con Producción. - Diagramas de ejecución y mejoras en las dependencias entre Jobs",
+  "encargado_indicaciones": "Cliente",
+  "proveedor_herramientas": "Cliente",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "SERVICIO DE SEGURIDAD AS400- Es un servicio de Seguridad",
+  "caracteristica_principal": "Otorgamiento de servicios de cómputo en la nube"
+}
+
+** 41613 CARACTERES, 1023 LINEAS **
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es det
+...
+-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.
+```json
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de consultoría en seguridad para mercado interno sin desarrollo de software registrable",
+  "IA_Razonamiento": "Primero evalué la categoría declarada en el formulario 'Otorgamiento de servicios de cómputo en la nube' contra la propuesta técnica. La propuesta describe claramente un servicio de consultoría y auditoría de seguridad en sistemas AS400/IBM i existentes, no servicios en la nube. Luego analicé si podría encajar en otras categorías: (i) no es desarrollo de software, (ii) no es desarrollo de productos registrables, (iii) no es implementación de software sino auditoría, (iv) no es desarrollo a medida, (v) podría considerarse servicio de seguridad pero es consultoría básica sin creación de valor agregado tecnológico, (vi) no desarrolla componentes de software, (vii) es para mercado interno no externo, (viii) no es software embebido, (ix) no son videojuegos, (x) no son servicios en la nube. El servicio consiste en revisar configuraciones existentes, generar reportes y capacitación, sin crear productos de software registrables.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en que se trata claramente de consultoría en seguridad sin desarrollo de software ni valor agregado tecnológico registrable.",
+  "IA_Observaciones": "Inconsistencia crítica detectada: el formulario declara 'servicios de cómputo en la nube' pero la propuesta técnica describe exclusivamente trabajo sobre sistemas AS400 on-premise del cliente. Esta contradicción sugiere error en la categorización inicial del formulario, lo que confirma que el proyecto no encaja en las categorías promovibles."
+}
+```
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando caso3 ...
+PDF procesado en 20.42 seg | modo=PLUMBER | archivo=/home/crp/Projects/itp-flokzu/data/proceso2/caso3/Propuesta.pdf
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: AltaCentroCostos_Datos
+Campos del modelo de datos:
+  - nombre_propuesto_servicio : Nombre propuesto de servicio
+  - servicio_final_esperado : Producto / Servicio final esperado
+  - descripcion_servicio : Breve descripción del servicio a brindar
+  - herramientas_a_utilizar : Lenguajes / Herramientas a utilizar
+  - encargado_indicaciones : ¿Quién es el encargado de dar las indicaciones a los colaboradores?
+  - proveedor_herramientas : ¿Quién proporciona las herramientas necesarias a los colaboradores (ej. computadora, email, etc.)?
+  - colaborador_percibe_beneficios : ¿El colaborador percibe los beneficios de IT Patagonia?
+  - c1 : Se trata de un SaaS
+  - c2 : Desarrollo realizado a medida a pedido del cliente
+  - c3 : Desarrollo propio comercializable como enlatado
+  - c4 : Otorgamiento de servicios de cómputo en la nube
+  - c5 : Desarrollo de un software a ser embebido en un hardware
+  - c6 : Desarrollo a fin de mejorar la seguridad de equipos y/o redes
+  - c7 : Implementación o puesta a punto en el cliente de un producto propio o creado por terceros y de productos registrados
+  - c8 : Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable
+  - informacion_adicional : Observaciones información adicional análisis promovido
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso2/caso3/Formulario.pdf
+Tamaño en bytes: 188966
+
+*** LLAMANDO A MODELO IA ***
+Basándome en el documento proporcionado, extraeré los datos según el modelo de datos especificado:
+Tool #1: AltaCentroCostos_Datos
+
+{
+  "nombre_propuesto_servicio": "Desarrollo a Medida DRM Desarrollo Tributario",
+  "servicio_final_esperado": "Desarrollo a Medida DRM Desarrollo Tributario",
+  "descripcion_servicio": "Se implementara el Desarrollo Tributario que se esta construyendo para Misiones",
+  "herramientas_a_utilizar": "Firewalls a nivel de aplicación como a nivel del host, VPC ,VLANs, VPN y ACL para la gestión de las DMZ ,Kubernetes: Para la orquestación de contenedores, asegurando la escalabilidad automática basada en la demanda. Auto Scaling: Configurado Pod Disruption Budgets: Health Checks:",
+  "encargado_indicaciones": "Cliente",
+  "proveedor_herramientas": "Cliente",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "Este CECO debe ser similar al CECO :SDMA1TSA es el mismo desarrollo Otra Observacion **Desarrollo de un software a ser embebido en un hardware",
+  "caracteristica_principal": "Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable"
+}
+
+** 291351 CARACTERES, 5205 LINEAS **
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es det
+...
+-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.
+```json
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido",
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero analicé la característica principal declarada en el formulario: 'Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable', que corresponde directamente al inciso (vi). Sin embargo, al revisar la propuesta técnica completa, identifiqué que el proyecto abarca mucho más que solo módulos complementarios. La propuesta describe el desarrollo integral de un nuevo sistema transaccional tributario que reemplazará completamente el sistema SIAT actual, incluyendo arquitectura de microservicios, APIs custom, módulos específicos para diferentes organismos, y soluciones tecnológicas innovadoras. Esto constituye claramente desarrollo de software a medida con valor agregado significativo, encajando perfectamente en el inciso (iv). La propuesta también menciona potencial de replicación en otras jurisdicciones, sugiriendo aplicabilidad externa.",
+  "IA_Conclusion": "Alta confianza. Aunque inicialmente parecía ser solo desarrollo de módulos complementarios, el análisis detallado de la propuesta técnica reveló que se trata de un desarrollo integral a medida con alto valor agregado tecnológico.",
+  "IA_Observaciones": "Inconsistencia menor detectada: el formulario declara la característica como desarrollo de módulos complementarios (inciso vi), pero la propuesta técnica describe un desarrollo integral a medida que encaja mejor en el inciso (iv). Esta discrepancia inicial requirió análisis más profundo de la propuesta para determinar la categorización correcta."
+}
+```
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando caso4 ...
+PDF procesado en 1.50 seg | modo=PLUMBER | archivo=/home/crp/Projects/itp-flokzu/data/proceso2/caso4/Propuesta.pdf
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: AltaCentroCostos_Datos
+Campos del modelo de datos:
+  - nombre_propuesto_servicio : Nombre propuesto de servicio
+  - servicio_final_esperado : Producto / Servicio final esperado
+  - descripcion_servicio : Breve descripción del servicio a brindar
+  - herramientas_a_utilizar : Lenguajes / Herramientas a utilizar
+  - encargado_indicaciones : ¿Quién es el encargado de dar las indicaciones a los colaboradores?
+  - proveedor_herramientas : ¿Quién proporciona las herramientas necesarias a los colaboradores (ej. computadora, email, etc.)?
+  - colaborador_percibe_beneficios : ¿El colaborador percibe los beneficios de IT Patagonia?
+  - c1 : Se trata de un SaaS
+  - c2 : Desarrollo realizado a medida a pedido del cliente
+  - c3 : Desarrollo propio comercializable como enlatado
+  - c4 : Otorgamiento de servicios de cómputo en la nube
+  - c5 : Desarrollo de un software a ser embebido en un hardware
+  - c6 : Desarrollo a fin de mejorar la seguridad de equipos y/o redes
+  - c7 : Implementación o puesta a punto en el cliente de un producto propio o creado por terceros y de productos registrados
+  - c8 : Desarrollo de módulos, rutinas, procedimientos o documentación complementarios o integrables a un software registrable
+  - informacion_adicional : Observaciones información adicional análisis promovido
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso2/caso4/Formulario.pdf
+Tamaño en bytes: 190543
+
+*** LLAMANDO A MODELO IA ***
+Basándome en el documento proporcionado, extraeré los datos según el modelo especificado:
+Tool #1: AltaCentroCostos_Datos
+
+{
+  "nombre_propuesto_servicio": "Servicio de Horas Profesionales Soporte IT",
+  "servicio_final_esperado": "Servicio de Horas Profesionales Soporte IT",
+  "descripcion_servicio": "Servicio de Horas Profesionales Soporte IT-Analista de Soporte IT Semi Sr",
+  "herramientas_a_utilizar": "Soporte IT: Semi Senior",
+  "encargado_indicaciones": "Cliente",
+  "proveedor_herramientas": "Cliente",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "Este Ceco debe ser similar al CECO DACO0AFA ya que solo es un cambio de razon social.",
+  "caracteristica_principal": "Otorgamiento de servicios de cómputo en la nube"
+}
+
+** 44645 CARACTERES, 603 LINEAS **
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es det
+...
+-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.
+```json
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de soporte técnico básico para mercado interno sin valor agregado tecnológico",
+  "IA_Razonamiento": "Primero analicé la categoría seleccionada en el formulario 'Otorgamiento de servicios de cómputo en la nube' que correspondería al inciso (x). Sin embargo, al revisar la propuesta técnica, encontré que se trata de un 'Servicio de Horas Profesionales Soporte IT-Analista de Soporte IT Semi Sr'. Evalué si podría encajar en el inciso (v) sobre servicios informáticos de valor agregado, pero la descripción indica claramente que es soporte técnico tradicional sin desarrollo de software, sin creación de productos registrables, y sin componentes de valor agregado tecnológico. La propuesta no menciona desarrollo, implementación de software, ni servicios especializados que agreguen valor tecnológico.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en que se trata claramente de servicios de soporte técnico básico que no encajan en ninguna de las categorías promovibles.",
+  "IA_Observaciones": "Inconsistencia significativa detectada: el formulario declara 'Otorgamiento de servicios de cómputo en la nube' como característica principal, pero toda la propuesta técnica describe exclusivamente servicios de soporte IT tradicional sin ninguna mención a servicios en la nube. Esta contradicción sugiere error en la categorización inicial del formulario."
+}
+```
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+
+[INFO] Casos procesados:
+    caso1
+    caso2
+    caso3
+    caso4
+
+[INFO] Salidas generadas:

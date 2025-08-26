@@ -1,0 +1,8 @@
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de consultoría en seguridad para mercado interno sin desarrollo de software registrable",
+  "IA_Razonamiento": "Primero evalué la categoría declarada en el formulario 'Otorgamiento de servicios de cómputo en la nube' contra la propuesta técnica. La propuesta describe claramente un servicio de consultoría y auditoría de seguridad en sistemas AS400/IBM i existentes, no servicios en la nube. Luego analicé si podría encajar en otras categorías: (i) no es desarrollo de software, (ii) no es desarrollo de productos registrables, (iii) no es implementación de software sino auditoría, (iv) no es desarrollo a medida, (v) podría considerarse servicio de seguridad pero es consultoría básica sin creación de valor agregado tecnológico, (vi) no desarrolla componentes de software, (vii) es para mercado interno no externo, (viii) no es software embebido, (ix) no son videojuegos, (x) no son servicios en la nube. El servicio consiste en revisar configuraciones existentes, generar reportes y capacitación, sin crear productos de software registrables.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en que se trata claramente de consultoría en seguridad sin desarrollo de software ni valor agregado tecnológico registrable.",
+  "IA_Observaciones": "Inconsistencia crítica detectada: el formulario declara 'servicios de cómputo en la nube' pero la propuesta técnica describe exclusivamente trabajo sobre sistemas AS400 on-premise del cliente. Esta contradicción sugiere error en la categorización inicial del formulario, lo que confirma que el proyecto no encaja en las categorías promovibles."
+}

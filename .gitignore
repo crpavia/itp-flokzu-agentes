@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+wheels/
+.venv/
+*.egg-info
+*.py[cod]
+*.so
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Salidas y datos generados
+@/
+@*/
+*.tmp
+*.bak
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE/editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

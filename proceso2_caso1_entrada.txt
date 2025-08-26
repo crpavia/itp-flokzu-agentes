@@ -1,0 +1,648 @@
+# Prompt Optimizado para Evaluación de Proyectos
+
+### Prompt version 1.0
+
+## ROL Y CONTEXTO
+Eres un analista experto en evaluación de proyectos de servicios informáticos y digitales. Tu función es determinar si un proyecto debe ser promovido basándote en las categorías establecidas en la normativa vigente.
+
+## INSTRUCCIONES DE ANÁLISIS
+
+### PASO 1: Análisis de Categorización
+Evalúa si el proyecto encaja en alguna de las siguientes categorías de "Software y servicios informáticos y digitales":
+
+<categorias>
+a) Software y servicios informáticos y digitales, incluyendo: 
+(i) desarrollo de productos y servicios de software (SAAS) existentes o que se creen en el futuro, que se apliquen a actividades como e-learning, marketing interactivo, e-commerce, servicios de provisión de aplicaciones, edición y publicación electrónica de información; siempre que sean parte de una oferta informática integrada y agreguen valor a la misma; 
+(ii) desarrollo y puesta a punto de productos de software originales registrables como obra inédita o editada; 
+(iii) implementación y puesta a punto para terceros de productos de software propios o creados por terceros y de productos registrados; 
+(iv) desarrollo de software a medida cuando esta actividad permita distinguir la creación de valor agregado, aun cuando en los contratos respectivos se ceda la propiedad intelectual a terceros; 
+(v) servicios informáticos de valor agregado orientados a mejorar la seguridad de equipos y redes, la confiabilidad de programas y sistemas de software, la calidad de los sistemas y datos y la administración de la información y el conocimiento de las organizaciones; 
+(vi) desarrollo de partes de sistemas, módulos, rutinas, procedimientos, documentación, siempre que se trate de desarrollos complementarios o integrables a productos de software registrables; 
+(vii) servicios de diseño, codificación, implementación, mantenimiento, soporte a distancia, resolución de incidencias, conversión y/o traducción de lenguajes informáticos, adición de funciones, preparación de documentación para el usuario y garantía o asesoramiento de calidad de sistemas, entre otros, todos ellos a ser realizados a productos de software y con destino a mercados externos; 
+(viii) desarrollo y puesta a punto de software que se elabore para ser incorporado en procesadores (software embebido o insertado) utilizados en bienes y sistemas de diversa índole; 
+(ix) videojuegos; y 
+(x) servicios de cómputo en la nube;
+</categorias>
+
+### PASO 2: Revisión del Formulario
+Analiza la información del formulario completado, prestando especial atención a:
+- La característica seleccionada que mejor representa el servicio
+- Las observaciones del análisis promovido
+- Descripción del servicio y herramientas utilizadas
+- Destino del servicio (mercado interno vs. externo)
+
+<formulario>
+{
+  "nombre_propuesto_servicio": "Servicio de Desarrollo - Proyecto rediseño de la experiencia digital",
+  "servicio_final_esperado": "Servicio de Desarrollo -",
+  "descripcion_servicio": "Servicio de Desarrollo - Proyecto rediseño de la experiencia digital",
+  "herramientas_a_utilizar": "Next.js,acompañados de TailwindCSS para el diseño responsivo y Axios o GraphQL para la comunicación eficiente con APIs. El backend de comercio electrónico se basará enAdobe Commerce Cloud (Magento 2.4.x), utilizando PHP 8.1+, MySQL y ElasticSearch",
+  "encargado_indicaciones": "IT Patagonia",
+  "proveedor_herramientas": "IT Patagonia",
+  "colaborador_percibe_beneficios": "SI",
+  "informacion_adicional": "Copio respuesta del tecncio es correcto que solo esté la opción \"Desarrollo realizado a medida a pedido del cliente\". En cuanto a los 3 campos desplegables, el segundo campo las herramientas(pc y email son de itp) pero el cliente nos da todo el resto(infraestructura)",
+  "caracteristica_principal": "Desarrollo realizado a medida a pedido del cliente"
+}
+</formulario>
+
+### PASO 3: Análisis de la Propuesta
+Revisa la propuesta técnica para entender completamente el alcance y naturaleza del proyecto:
+
+<propuesta>
+Proyecto rediseño de
+la experiencia digital
+17 de junio de 2O25
+
+Contexto generaI y propuesta
+Contexto general Evaluación técnica de código e infraestructura:
+detectaremos limitaciones actuales, oportunidades
+Car One, una de las compañías más relevantes del de mejora y puntos críticos a resolver durante la
+ecosistema automotor argentino, se encuentra migración.
+transitando un proceso integral de transformación
+digital, impulsado por la necesidad de adaptarse a las Identificación de integraciones clave:
+nuevas demandas del consumidor y a los desafíos que revisaremos cómo interactúa el sitio con sistemas
+presenta un mercado cada vez más competitivo y internos y externos (CRM, stock, medios de pago,
+dinámico. etc.), con foco en mantener la continuidad operativa.
+En los últimos años, la empresa ha evolucionado su
+propuesta de valor, convirtiéndose en un actor de Detección de riesgos y diseño de estrategia de
+movilidad integral, que abarca desde la venta de migración:
+vehículos nuevos y usados hasta la financiación, los definiremos un plan ordenado para migrar desde
+seguros y el servicio postventa. WordPress hacia nueva solución, minimizando
+fricciones y garantizando la evolución sin interrupActualmente, CarOne se encuentra en la renovación de ciones.
+su sitio web y la experiencia completa del cliente,
+partiendo de una base ya desarrollada por el equipo de
+Uruguay, que será reutilizada y adaptada para La plataforma estará basada en una arquitectura
+Argentina, con el objetivo de optimizar tiempos y modular de microservicios, con un enfoque Domain
+reducir costos. Driven Design (DDD), que permite desacoplar las
+funcionalidades críticas del negocio y escalar de
+manera independiente cada componente.
+Para sostener la arquitectura de microservicios, se
+Como parte del proceso de transformación digital de
+propone¦
+Car One Argentina, proponemos el diseño y desarrollo
+de una nueva plataforma de comercio electrónico que
+será completamente responsive y mobile-first, pensada Uso de contenedores gestionados vía Azure
+desde su concepción para ofrecer una experiencia Kubernetes Service (AKS) para facilitar el
+optimizada en dispositivos móviles. Esta solución despliegue, escalado y gestión de servicios de
+reemplazará y superará las limitaciones de la backend.
+infraestructura actual, alineándose con los estándares
+modernos de arquitectura, escalabilidad y experiencia Observabilidad end-to-end con Azure Monitor,
+de usuario. Application Insights y Grafana, que permitirá
+Clave en este proceso de transformación, es la detectar cuellos de botella, errores en tiempo real y
+realización de una fase de relevamiento integral del comportamientos anómalos.
+sistema de Uruguay que nos permitirá trazar un
+diagnóstico preciso del estado actual de la plataforma y Se adoptará una estrategia API-First y Headless,
+sentar las bases sólidas para el desarrollo futuro. habilitando un frontend desacoplado desarrollado con
+Esta etapa tiene como objetivo comprender a fondo tecnologías modernas (React/Vue/Next.js), lo que
+tanto la infraestructura como los procesos de negocio brindará máxima flexibilidad para evolucionar la interfaz
+existentes, y consiste en¦ sin afectar la lógica de negocio.
+Entre los componentes clave a desarrollar e integrar se
+Análisis funcional de la plataforma actual (Wor- incluyen¦
+dPress): relevar las funcionalidades disponibles, su
+uso real y su alineación con los objetivos comercia- Adobe Commerce Cloud (Magento) como motor de
+les de Car One. e-commerce central.
+
+Microsoft Power Automate como middleware para Arquitectura de la solución
+orquestación y automatización de flujos.
+Integración con el Spinner 360º de Spyne para
+visualización inmersiva de vehículos.
+Conectividad con sistemas externos críticos: Salesforce
+CRM, Asofix (stock y precios), Tecnom,
+MercadoLibre, Active Directory (SSO y roles),
+Genesys (contact center), y plataformas financieras
+como MercadoPago, La Caja y Santander.
+La solución cubrirá funcionalidades fundamentales
+para la operación¦
+Catálogo online enriquecido con cotizador de
+vehículos nuevos y usados.
+Proceso de checkout con validación y reservas
+online.
+Un área B2B privada y segura, con mecanismos de
+pago offline y control de acceso vía AD.
+Backend administrativo completo para gestión de
+clientes, promociones, órdenes (OMS).
+Paneles de analítica avanzada y reportes, con
+integración a Google Analytics y GTM.
+Monitoreo, seguridad y gestión de identidades
+integradas a Active Directory.
+Criterios de escalabilidad Arquitectura Técnica
+Desde el punto de vista técnico, se implementará una Categoría Detalle
+solución escalable, segura y performante, utilizando los Princípios - Microservicios
+- Domain Driven Design (DDD)
+lenguajes PHP, NodeJS y JavaScript, con pipelines de - Headless CMS / API-First
+integración y despliegue continuo (CI/CD), ambientes
+de testing automatizado y servicios desacoplados Lenguajes y Tecnologías - Backend: PHP (Magento), Node.js
+- Frontend: JavaScript (React / Next.js), HTML5, CSS3
+expuestos mediante REST APIs y Webhooks. - Middleware: Microsoft Power Automate
+Esta propuesta posiciona a Car One con una
+APIs y Comunicación - REST APIs para todos los servicios
+arquitectura moderna, preparada para futuros desafíos - Webhooks para eventos (reserva, pago, contacto)
+- Documentación OpenAPI/Swagger
+de omnicanalidad, personalización e integración digital
+total. DevOps y Seguridad - CI/CD (Jenkins / GitHub Actions)
+- Testing automatizado
+- Integración con Active Directory (roles y accesos)
+- Monitoreo y logging
+
+Seguridad La capa de middleware estará gestionada a través de
+Microsoft Power Automate, complementado por Azure
+La nueva plataforma será desarrollada bajo un enfoque Logic Apps o Azure Functions, dependiendo del
+"security by design”, lo que asegura que cada volumen de operaciones.
+componente esté pensado desde el inicio para proteger
+la información, los procesos y la experiencia del usuario. Para la gestión y exposición de servicios, se
+implementará un API Gateway, recomendándose Azure
+Además del uso de tokens y SSO, se propone una API Management o Kong API Gateway.
+política de seguridad integral basada en los siguientes
+principios¦ El pipeline de CI/CD se desarrollará con herramientas
+como GitHub Actions o Azure DevOps, con soporte de
+Tokenización OAuth2/JWT con renovación Docker y Terraform para la automatización y
+automática de tokens y scopes segmentados por aprovisionamiento de infraestructura como código.
+servicio.
+Finalmente, la capa de seguridad estará integrada a
+Gestión de secretos mediante Azure Key Vault, través de Azure Active Directory, con autenticación
+evitando almacenar credenciales en el código basada en OAuth2.0, gestión de accesos por roles
+fuente. (RBAC) y soporte para Single Sign-On (SSO).
+Implementación de WAF y políticas de rate limiting
+Capa Tecnología sugerida
+en el API Gateway para prevenir abusos y ataques
+DDoS. Frontend Next.js, TailwindCSS, Axios/GraphQL
+(Headless)
+Plan de QA Magento Adobe Commerce Cloud (Magento 2.4.x), PHP 8.1+, MySQL,
+Backend ElasticSearch
+La solución contará con una estrategia sólida de Middleware Power Automate + Azure Logic Apps / Functions (según volumen)
+testing, incluyendo¦
+API Gateway Azure API Management o Kong API Gateway
+Pruebas unitarias y de integración automatizadas CI/CD GitHub Actions / Azure DevOps, Docker, Terraform (infra as code)
+para servicios backend. Seguridad Azure Active Directory, OAuth2.0, RBAC, SSO
+Tests E2E para flujos críticos en frontend
+(checkout, login, búsquedas, etc.)
+Integraciones específicas
+Testing en dispositivos móviles reales y simulados, La nueva plataforma digital de Car One estará diseñada
+cubriendo los principales navegadores y tamaños
+para operar como un hub de integraciones inteligentes,
+de pantalla.
+permitiendo una comunicación fluida y segura entre los
+distintos sistemas.
+Tecnologías sugeridas por capa
+El enfoque será desacoplado, resiliente y extensible,
+La arquitectura propuesta para la nueva plataforma utilizando APIs estándar y patrones asincrónicos donde
+digital de Car One estará compuesta por diversas sea necesario.
+capas tecnológicas optimizadas para garantizar
+modularidad, escalabilidad y facilidad de La integración con Salesforce CRM será bidireccional
+mantenimiento. En el frontend headless, se sugiere el mediante Power Automate y Webhooks para
+uso de frameworks modernos como Next.js, sincronizar datos de clientes, leads y actividades
+acompañados de TailwindCSS para el diseño comerciales en tiempo real, esto permitirá una visión
+responsivo y Axios o GraphQL para la comunicación 360º del cliente, mejorando tanto la atención como las
+eficiente con APIs. campañas de fidelización y retargeting.
+El backend de comercio electrónico se basará en Para la gestión de datos técnicos y stock de vehículos,
+Adobe Commerce Cloud (Magento 2.4.x), utilizando se consumirá APIs REST expuestas por Tecnom y
+PHP 8.1+, MySQL como base de datos y ElasticSearch Asofix, asegurando precisión en características y dispopara funcionalidades de búsqueda avanzada. nibilidad.Se incorporará una capa de normalización y
+
+validación de datos, asegurando consistencia y legibili- nes. En cuanto a entidades financieras y aseguradoras
+dad en el frontend como Santander y La Caja, se consumirá APIs de terceros para simuladores o validadores en línea.
+El componente de visualización de vehículos en 360º
+provisto por Spyne se integrará a través de iframes El seguimiento del comportamiento del usuario y las
+seguros o su API JS, ofreciendo una experiencia visual conversiones se gestionará con Google Tag Manager
+inmersiva y diferenciadora para el usuario (GTM) y eventos personalizados en JavaScript.
+La solución omnicanal para atención al cliente a través
+La sincronización de publicaciones y disponibilidad de de Genesys se integrará mediante widgets o
+autos en MercadoLibre se realizará mediante su API componentes de chat web.
+REST y Webhooks, asegurando consistencia con el
+catálogo principal. Finalmente, el acceso autenticado para usuarios B2B y
+B2C se gestionará mediante Azure Active Directory,
+Para pagos y checkout, se implementará SDK REST o considerando el uso de Azure AD B2C en caso de
+Checkout Pro de MercadoPago, con validaciones requerir una solución escalable para usuarios finales.
+antifraude y conciliación integrada al backend de órdeSistema Tipo de integración Medio sugerido
+Salesforce CRM Bidireccional (clientes, leads) Power Automate + Webhooks
+Tecnom / Asofix Datos técnicos de vehículos API REST programada
+Spyne Spinner Galería 360° de autos Embebido vía iframe/API
+MercadoLibre Publicaciones y API REST + Webhooks
+sincronización
+MercadoPago Checkout / pagos SDK REST o Checkout Pro
+Santander / La Simuladores o validadores APIs de terceros
+Caja
+Google Analytics Seguimiento y conversión GTM + eventos JS
+Genesys Comunicación omnicanal Integración web (widget/chat)
+Active Directory Autenticación B2B/B2C Azure AD B2C (si aplica)
+
+Despliegue y entornos App Services o, preferentemente, sobre un clúster
+Kubernetes (AKS), lo cual permitirá escalar
+El entorno de desarrollo y pruebas de la plataforma horizontalmente en función del tráfico y aislar servicios
+digital se desarrollará e integrará bajo un esquema críticos para mejorar la disponibilidad. El monitoreo se
+robusto de automatización de despliegues y gestión de realizará mediante Azure Monitor, Application Insights y
+entornos, alineado a las mejores prácticas de DevOps. Prometheus/Grafana, asegurando visibilidad completa
+del estado de la plataforma.
+Se implementará un entorno de desarrollo basado en
+contenedores Docker, permitiendo que cada integrante Garantiza una operación estable incluso en picos de
+del equipo trabaje en condiciones homogéneas y demanda, como eventos promocionales o
+reproducibles. lanzamientos.
+El entorno de staging alojado en Azure replicará la El control de versiones y gestión de código fuente se
+configuración de producción, lo cual asegura que cada llevará a cabo mediante GitHub o Azure DevOps,
+nueva funcionalidad o integración pueda ser validada implementando flujos de trabajo estructurados con
+de forma anticipada mediante tests automatizados branching, versionado semántico y pipelines CI/CD, lo
+(unitarios, integrales y E2E). que permitirá mantener una trazabilidad completa,
+reducir riesgos de integración y facilitar los despliegues
+Esto reduce drásticamente errores en producción y progresivos.
+acorta los ciclos de QA, elevando la confianza en cada
+release Este esquema permite a Car One desplegar nuevas
+funcionalidades con rapidez, trazabilidad y bajo riesgo
+Se recomienda desplegar la plataforma sobre Azure operativo.
+Entorno * Infraestructura Observaciones
+Dev / Test Docker, staging Azure Deploy automático con pruebas
+Producción Kubernetes o Azure App Monitoreo, escalado, logging
+Services
+Repositorio GitHub o Azure DevOps Branching, versionado, pipelines
+* Dado que los entornos serán responsabilidad de Car One es una sugerencia para el desarrollo.
+
+Metodología de trabajo: enfoque ágil y ciclo de vida
+Al final de cada sprint, se realizará una demo funcional
+Miteertaotdivoolo pgoíar dsee ctcriaobnaejso : enfoque ágil y ciclo de vida
+(sprint review) con el cliente para mostrar los avances y
+obtener feedback temprano, asegurando el alineamienPara llevar adelante el desarrollo del proyecto E2E de
+to continuo con los objetivos funcionales y la experienCar One se adoptará una metodología ágil, basada en
+cia de usuario deseada.
+marcos de trabajo colaborativos, iterativos e incrementales. Esta modalidad nos permitirá gestionar de forma
+4. Validación técnica y control de calidad (QA/UAT)
+eficaz los cambios funcionales, validar continuamente
+Una vez desarrolladas las funcionalidades, cada
+con stakeholders, asegurar una evolución progresiva
+sección pasará a una instancia de QA y validación
+del producto y minimizar riesgos técnicos o de negocio
+técnica, ejecutada por un equipo especializado. En esta
+a lo largo del proceso.
+etapa se realizarán pruebas funcionales, de integración,
+de regresión, de usabilidad y eventualmente de perforEl proyecto se organizará en sprints quincenales y se
+mance.
+estructurará en torno a las diez secciones funcionales
+previamente detalladas. Cada sección será abordada
+La metodología de testing incluirá la documentación de
+como un mini-proyecto autónomo dentro del marco
+casos de prueba y la gestión de defectos. Las validacioglobal, con su propio ciclo completo de descubrimiento,
+nes se realizarán tanto a nivel técnico como con usuadiseño, construcción, validación y despliegue. Esta
+rios de negocio (UAT), permitiendo asegurar la calidad
+estrategia modular, orientada a resultados y valor,
+funcional antes de liberar a producción.
+garantiza foco, ritmo y visibilidad en cada etapa.
+5. Despliegue controlado y puesta en producción
+El ciclo de trabajo para cada sección seguirá las
+Superada la etapa de QA, cada sección se desplegará
+siguientes fases y ceremonias ágiles¦
+en los entornos de producción de forma controlada.
+Se utilizarán pipelines automatizados de CI/CD, con
+1. Relevamiento funcional y refinamiento de requerirevisiones y controles previos, para garantizar consismientos
+tencia, trazabilidad y seguridad en los releases.
+Cada sección comenzará con un trabajo de análisis
+funcional en conjunto entre el equipo de producto,
+El equipo de desarrollo y QA acompañará este proceso
+usuarios clave y referentes técnicos. En estas instancias
+con monitoreo activo y soporte post go-live durante las
+(workshops, entrevistas, análisis de benchmark y docuprimeras horas/días de operación, permitiendo una
+mentación existente) se levantarán funcionalidades,
+estabilización temprana.
+flujos esperados y reglas de negocio. Este proceso
+alimentará el backlog con historias de usuario detallaDurante todo el proyecto se promoverá una dinámica
+das, refinadas y priorizadas, listas para planificación.
+de retrospectivas al cierre de cada sprint, donde el
+Esta etapa se verá reforzada por sesiones de refinaequipo reflexionará sobre los aspectos a mejorar, tanto
+miento del backlog en donde el equipo técnico podrá
+en términos técnicos como colaborativos. Este aprendiclarificar requisitos y anticipar desafíos técnicos.
+zaje continuo es clave para sostener la eficiencia y la
+mejora constante en cada fase.
+2. Diseño funcional, validación y definición visual
+A continuación se trabajará en el diseño funcional y
+Esta modalidad de trabajo garantiza que cada sección
+visual de cada sección. Se entregará documentación
+avance de manera estructurada, validada y con entreestructurada (userflows, wireframes, casos de uso,
+gas funcionales frecuentes. Asimismo, permite una alta
+mockups y eventualmente prototipos navegables) que
+participación del cliente en todas las etapas clave del
+serán presentados al cliente en sesiones de validación
+proceso¦ desde la concepción de las funcionalidades
+de funcionalidad. El objetivo es alinear la solución con
+hasta su puesta en marcha, asegurando así un produclas expectativas del negocio y afinar el look & feel antes
+to alineado, usable y evolutivo.
+del inicio del desarrollo. Estas entregas permitirán
+tomar decisiones clave antes de avanzar con la impleAlcance funcional y propuesta de desarrollo del
+mentación técnica.
+pArlocyaenccteo fwuenbc io(rneaspl oyn spivroe)p uCeasrt aO ne
+3. Desarrollo iterativo y revisión continua
+El proyecto E3E de Car One se estructura en torno a
+El desarrollo se realizará de manera incremental, en
+diez grandes secciones funcionales, compuestas por
+ciclos de dos semanas, dentro del marco de sprints
+un total de 22 épicas y 126 historias de usuario que
+ágiles. Cada sprint incluirá una ceremonia de planificacubren todos los procesos clave de la plataforma.
+ción (sprint planning) donde se definirá el alcance del
+Cada sección evolucionará progresivamente desde un
+ciclo, así como dailys breves para monitorear avances y
+MVP que aborda el núcleo operativo hasta versiones
+remover bloqueos.
+más completas (V2 y V3), siguiendo una estrategia de
+despliegue iterativo, controlado y enfocado en la entre.
+ga de valor incremental.
+Esta modalidad permite acelerar la salida a producción,
+Vender
+facilitar validaciones tempranas con usuarios y aseguEn el módulo Vender, el MVP permitirá publicar autos
+rar mejoras continuas, promoviendo una integración
+usados ingresando datos, fotos y precios sugeridos. En
+efectiva con los activos tecnológicos ya existentes, en
+la segunda etapa se habilitará la validación automática
+especial todo lo desarrollado previamente para Car One
+de datos, ofertas de compra directa, edición y pausa de
+Uruguay.
+publicaciones, contacto con interesados, tasación y
+carga de documentación. En su última etapa, se integrará
+Login y gestión de cuenta
+el peritaje digital, firma electrónica y coordinación con
+La sección de Login y gestión de cuenta iniciará con el
+concesionarias para la entrega del vehículo.
+registro y login de usuarios personales y empresas,
+recuperación de contraseña, guardado de favoritos y
+Asegurar
+mensajes de bienvenida. En versiones posteriores, se
+La sección de Asegurar será implementada a partir de
+añadirá login opcional para usuarios B2C, acceso exclula segunda versión, incluyendo comparación de segusivo para empresas con permisos diferenciados, historos, contratación, envío de documentación y confirmarial de búsquedas, visualización de cotizaciones previas y
+ción. En su versión final se sumará la gestión de pólizas,
+guardado de simulaciones de financiación
+soporte personalizado, renovación de coberturas y
+seguimiento postventa de siniestros.
+Compra
+En el módulo de Compra, el MVP habilitará la búsqueda
+Accesorios y servicios
+por palabra clave con filtros básicos, una ficha detallada
+Accesorios y servicios, prevista para una tercera
+del vehículo y la opción de reserva. Más adelante se
+versión, incluirá reporte de siniestros, solicitud de
+sumarán sugerencias inteligentes, categorización de
+turnos de reparación, consulta de talleres por zona,
+vehículos, simuladores financieros, gestión de test-dricompra de repuestos originales, reserva de servicios de
+ves y en su fase final, la integración con una galería 360º
+mantenimiento, gestión de neumáticos y funcionalidapara los vehículos, la firma digital del peritaje, carga de
+des relacionadas con Telepase (solicitud, asociación,
+fotos para retoma y comparación de planes financieros.
+movimientos y activación).
+Financiar
+Classics
+La sección Financiar incluirá inicialmente la simulación
+La sección Classics, también contemplada en una fase
+de créditos bancarios y planes de ahorro, la visualizaavanzada, dispondrá de una landing exclusiva con
+ción de opciones y el envío de solicitudes. En versiones
+estética diferenciada, buscador especializado, filtros
+futuras se permitirá comparar opciones, guardar simupensados para coleccionistas, fichas detalladas con
+laciones, acceder al historial y validar el scoring creditihistoria del vehículo, restauraciones y rarezas, favoritos
+cio de los usuarios.
+y contacto directo con los vendedores.
+
+Back Office El proyecto contará con un perfil senior con
+Finalmente, el Back OVice evolucionará desde un MVP experiencia combinada en análisis funcional y
+funcional que incluirá login corporativo con Azure AD, experiencia de usuario. Participará en el modelado de
+gestión de usuarios y roles, panel de órdenes, control procesos, validación de requerimientos y armado del
+de stock y publicaciones. La segunda versión incorpo- backlog.
+rará auditoría de accesos, recuperación de contraseñas,
+Al mismo tiempo, trabajará sobre los diseños
+manejo avanzado de sesiones y permisos, gestión de
+existentes, proponiendo mejoras puntuales en
+leads, test-drives y generación de reportes analíticos.
+journeys, wireframes e interfaces. Su foco estará en
+optimizar los diseños actuales sin realizar cambios
+En la etapa final se sumarán validaciones específicas
+estructurales significativos.
+para publicaciones de autos clásicos, trazabilidad completa de acciones del sistema y módulos especializados La calidad estará asegurada por un profesional QA
+para cotizaciones y aseguradoras. senior, encargado de definir estrategias de testing
+manual y automatizado, realizar pruebas de integración
+Este enfoque progresivo garantiza un desarrollo robus- y regresión, y liderar los procesos de validación funcioto, flexible y alineado con las expectativas de negocio, nal y técnica en cada entrega iterativa.
+permitiendo adaptaciones ágiles y escalables a lo largo
+del tiempo. Contamos con un desarrollador full stack senior,
+encargado de implementar soluciones integrales tanto
+en frontend como en backend. Será responsable de
+Equipo asignado y roles
+construir interfaces modernas y responsivas,
+Contamos con un equipo senior multidisciplinario, desarrollar APIs RESTful, integrar servicios externos y
+altamente experimentado en el diseño, desarrollo e asegurar la calidad en todo el stack. Su experiencia
+integración de plataformas de comercio electrónico permitirá entregar productos escalables, seguros y
+basadas en microservicios. Todos los perfiles asignados alineados con los estándares tecnológicos actuales del
+participan activamente en proyectos de similares proyecto.
+características y complejidad.
+Finalmente, el proyecto será gestionado por un Project
+Manager senior (con una asignación del 50% de su
+El equipo asignado al proyecto Car One está conformajornada), encargado de liderar la planificación general,
+do por un grupo senior, multidisciplinario y con expefacilitar las ceremonias ágiles, gestionar riesgos y
+riencia comprobada en el diseño, desarrollo e impleasegurar el cumplimiento de los objetivos del proyecto
+mentación de plataformas de comercio electrónico
+en tiempo y forma. Su rol será además el principal nexo
+basadas en arquitecturas modernas y escalables. Cada
+entre el equipo técnico y el cliente.
+rol cumple una función clave dentro del ciclo de vida del
+proyecto¦
+Contamos con un desarrollador backend senior,
+responsables de construir e implementar servicios
+backend desacoplados bajo una arquitectura de microservicios. Su enfoque está puesto en el diseño y desarrollo de APIs RESTful, la lógica de negocio y la integración con sistemas externos como Salesforce, Asofix y
+MercadoLibre.
+Por su parte, un desarrollador frontend senior estarán
+a cargo de construir la interfaz de usuario bajo un
+enfoque mobile-first, utilizando frameworks moder- nos
+y desacoplados. Estos desarrollos estarán integra- dos
+con Adobe Commerce Cloud a través de APIs,
+asegurando una experiencia fluida y de alto rendimiento en todos los dispositivos.
+La coordinación técnica estará a cargo de un Tech Lead
+senior, quien liderará las decisiones arquitectónicas del
+proyecto, definirá estándares de calidad y buenas prácticas, revisará código y se encargará de asegurar la
+alineación con el enfoque Domain Driven Design
+(DDD) planteado para la solución.
+
+PLAN DE PROYECTO:
+Referencias
+Funcional/UX
+Desarrollo
+QA
+Mes 1 Mes 2 Mes 3 Mes 4 Mes 5
+Sección Épica / Sem 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Relevamiento inicial
+Relevamiento As Is Relevamiento As Is Uruguay
+Header fijo con navegación
+Banner promocional
+Autos destacados
+Home Buscador de vehículos
+Formulario de login
+Registro de cuenta nueva
+Recuperar contraseña
+Mensaje de bienvenida personalizada
+Login Logout seguro
+Buscador
+Filtros de Búsqueda
+Paginador
+Ver detalle de vehículo
+Comprar Reservar
+Financiar Plan de Ahorro/Crédito bancario
+Publicar vehículo usado
+Vender Gestión de publicación
+Login BO
+Gestión de usuarios
+Panel de órdenes de compra
+BackOffice Control de stock
+
+SUPUESTOS:
+• Car One proveerá el acceso necesario a entornos, documentación técnica e
+información relevante para el avance del proyecto.
+• Las integraciones con sistemas existentes (como Salesforce, Active Directory, Asofix,
+Genesys, Spinner 360, entre otros) estarán disponibles mediante APIs o soluciones
+acordadas, junto con la documentación requerida para su implementación y prueba.
+• Los entornos requeridos para desarrollo, pruebas y despliegue estarán disponibles y
+configurados según las necesidades del proyecto y estará a cargo de Car One
+• El alcance de la propuesta contempla exclusivamente el desarrollo de la solución. No
+se incluye provisión de licencias, infraestructura ni componentes físicos.
+• Se trabajará colaborativamente en la definición y validación de los requerimientos
+funcionales y técnicos, incluyendo posibles ajustes sobre componentes ya existentes.
+• Los diseños actuales serán utilizados como base. Se considerarán únicamente
+mejoras puntuales que optimicen la experiencia, sin rediseños de alto impacto.
+• No se prevén modificaciones sobre la infraestructura actual. La solución se adaptará
+a la arquitectura y servicios ya definidos por Car One.
+• Se contará con un perfil asignado por Car One (Product Owner o referente de
+negocio) que tendrá que participar activamente y tomar decisiones clave para el
+proyecto.
+• Cada entorno contará con pipelines CI/CD que permitirán la automatización de
+pruebas, validaciones y despliegues; que será responsabilidad de Car One
+• El diseño de servicios estará orientado por dominio, incluyendo el modelado de datos
+y la conexión a las bases existentes (PostgreSQL, MongoDB u otras).
+
+A continuación se detalla el esquema de pricing que Impuestos: Todos los importes indicados en esta oferta
+no incluyen el Impuesto al Valor Agregado (IVA), el cuál
+acompaña la propuesta técnica (Valor hora
+será calculado a la tasa vigente del momento de la
+AR$53.570). Desglosado por mes donde el primer mes
+facturación de cada mes. Los precios no contemplan
+es un onboarding con un equipo reducido y al finalizar el
+ninguna previsión correspondiente a impuestos nuevos
+proyecto adicionando una asignación completa de
+que pudieran crearse, como tampoco el incremento de
+Testing.
+alícuotas vigentes. Por lo tanto, cualquier modificación
+de los mismos incidirá directamente en el precio
+MES HORAS por Mes TOTAL en Pesos
+cotizado. Cualquier variación a futuro de las leyes
+estimadas
+vigentes que represente mayores o menores costos
+1 ~ 560 hs $ 29.999.200
+para IT Patagonia serán reflejadas en la facturación al
+2 ~ 960 hs $ 51.427.200
+cliente.
+3 ~ 960 hs $ 51.427.200
+4 ~ 960 hs $ 51.427.200 Revisión de tarifas: Las tarifas incluidas en la presente
+5 (FIN MVP) ~ 1040 hs $ 55.712.000 propuesta serán revisadas por medio del IPC
+TOTAL MVP ~ 4480 hs $ 239.993.600 acumulado con una periodicidad trimestral, aplicando
+dichos incrementos a partir del primer día hábil
+posterior a ese periodo. Toda modificación tarifaria será
+validada y en acuerdo con el cliente con al menos 10
+En caso de necesitar acelerar el proyecto ante cualquier días de anticipación a dicha factura.
+necesidad que surja o extensión en el tiempo estipulado,
+el equipo de IT Patagonia seguirá estando disponible y Finalización servicio: En caso de solicitar la finalización
+con prioridad dedicada para este proyecto. anticipada del servicio o la no renovación llegando el fin
+del periodo detallado, el plazo para dicha comunicación
+Términos y condiciones formal deberá ser de al menos 30 (treinta) días de
+antelación a dicha finalización. En su defecto, se
+Moneda de la propuesta: Los valores expresados en la devengará un mes más de servicio en concepto de
+presente se encuentran en pesos argentinos. Tomando
+costos de salida, que se facturará a la finalización del
+como referencia un TC $1200 (dólar BNA). En caso de
+servicio y deberá ser cancelado dentro de los 15
+que la variación fluctué por encima del 10% las partes
+(quince) días de recibida la factura.
+se juntarán a negociar. Validez de la propuesta¦ 15 días desde su presentación.
+Facturación: Facturación a mes vencido contra servicio Confidencialidad
+prestado, dentro de los primeros 5 días hábiles posteriores Toda información y/o documentación recibida por IT
+al cierre. Patagonia de parte del Cliente será considerada confidencial. No podrá ser utilizada de ninguna manera por
+Forma de pago: 15 días corridos de la fecha de facturación.
+IT Patagonia para fines ajenos a los previstos y/o autorizados en esta propuesta. Asimismo, la información y/o
+Mora: El pago de las facturas fuera de los plazos documentación confidencial no podrá ser divulgada a
+acordados devengará, desde la fecha de vencimiento de
+terceros de manera alguna sin el consentimiento previo
+la misma, hasta la de su efectivo pago un interés
+y por escrito del Cliente, excepto en caso de requericompensatorio por los cargos financieros
+miento judicial. En tal supuesto IT Patagonia deberá
+correspondiente a la tasa activa del BCRA por dicho
+notificar al Cliente tal circunstancia de inmediato adjunperíodo.
+tando copia de la requisitoria Las obligaciones aquí
+asumidas subsistirán aún después de extinguida, por
+cualquier causa que fuere, la presente propuesta.
+
+
+</propuesta>
+
+### PASO 4: Aplicación de Criterios de Decisión
+Para determinar la promoción, considera:
+
+**PROMOVER SI:**
+- El proyecto encaja claramente en una de las categorías (a)(i), (a)(ii), etc.
+- Se trata de desarrollo de software registrable, servicios de valor agregado, o soluciones innovadoras
+- Tiene potencial de exportación o aplicación en mercados externos
+- Genera valor agregado tecnológico significativo
+
+**NO PROMOVER SI:**
+- No encaja en ninguna categoría específica
+- Es principalmente soporte técnico para mercado interno
+- Se trata de servicios básicos sin valor agregado tecnológico
+- Es mantenimiento rutinario de sistemas existentes
+
+## FORMATO DE RESPUESTA
+
+Proporciona tu análisis en el siguiente formato JSON exacto:
+
+```json
+{
+  "Promovido": "[Promovido/No promovido]",
+  "Analisis_promovido": "[Promovido/No promovido]",
+  "Observaciones_analisis_promovido": "[Si promovido: 'Promovido - Inciso A (X)' / Si no promovido: 'No promovido - {razón específica}']",
+  "IA_Razonamiento": "[Documenta tu proceso de análisis paso a paso: qué información evaluaste primero, cómo llegaste a conclusiones, qué inferencias hiciste, si hubo puntos de decisión complejos]",
+  "IA_Conclusion": "[Indica el nivel de confianza en tu decisión y si fue directa o requirió análisis complejo]",
+  "IA_Observaciones": "[SOLO incluye aspectos metacognitivos: inconsistencias detectadas entre documentos, ambigüedades encontradas, información faltante que dificultó el análisis, inferencias que tuviste que hacer, limitaciones en los datos proporcionados, o casos donde la decisión fue borderline]"
+}
+```
+
+## GUÍA PARA CAMPOS IA_*
+
+**IA_Razonamiento:** Documenta tu proceso mental interno:
+- ¿Qué evaluaste primero?
+- ¿Hubo información contradictoria?
+- ¿Qué te llevó a la conclusión final?
+- ¿Tuviste que hacer inferencias por falta de información explícita?
+
+**IA_Conclusion:** Evalúa tu propio análisis:
+- ¿Qué tan confiado estás en la decisión? (Alta/Media/Baja confianza)
+- ¿Fue una decisión clara o borderline?
+- ¿Requirió análisis complejo o fue directa?
+
+**IA_Observaciones:** ÚNICAMENTE incluye problemas del proceso de análisis:
+- Inconsistencias entre formulario y propuesta
+- Información ambigua o contradictoria  
+- Datos faltantes que complicaron la evaluación
+- Casos donde múltiples categorías podrían aplicar
+- Decisiones que estuvieron muy ajustadas (borderline)
+- Si NO hubo problemas metacognitivos, escribe "Ninguna"
+
+## EJEMPLOS DE DECISIONES
+
+**CASO PROMOVIDO:**
+```json
+{
+  "Promovido": "Promovido",
+  "Analisis_promovido": "Promovido", 
+  "Observaciones_analisis_promovido": "Promovido - Inciso A (IV)",
+  "IA_Razonamiento": "Primero verifiqué si encajaba en desarrollo a medida (iv). La propuesta técnica describía claramente arquitectura de microservicios y APIs custom, lo cual confirmó valor agregado tecnológico. No hubo ambigüedad en la categorización.",
+  "IA_Conclusion": "Alta confianza. Decisión directa basada en evidencia clara de desarrollo a medida con valor agregado.",
+  "IA_Observaciones": "Ninguna"
+}
+```
+
+**CASO NO PROMOVIDO CON INCONSISTENCIAS:**
+```json
+{
+  "Promovido": "No promovido",
+  "Analisis_promovido": "No promovido",
+  "Observaciones_analisis_promovido": "No promovido - Servicio de soporte para mercado interno sin valor agregado tecnológico",
+  "IA_Razonamiento": "Inicialmente consideré si podría clasificarse como (ii) servicios de valor agregado, pero la propuesta técnica indica principalmente tareas de soporte y automatización básica. La descripción sugiere mantenimiento más que desarrollo.",
+  "IA_Conclusion": "Media confianza. Decisión requirió evaluar borderline entre soporte básico vs. valor agregado.",
+  "IA_Observaciones": "Inconsistencia detectada: formulario declara 'sistema de cómputo en la nube' pero propuesta técnica describe sistema on-premise AS400. Esta contradicción dificultó evaluación inicial de la categoría."
+}
+```
+
+Procede con el análisis siguiendo estos pasos de manera sistemática y proporciona la respuesta en formato JSON.

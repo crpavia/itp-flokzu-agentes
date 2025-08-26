@@ -1,0 +1,21 @@
+>>> PULSE ESPACIO PARA CONTINUAR <<< >>> PULSE ESPACIO PARA CONTINUAR <<< 
+real	0m26,064s
+user	0m3,320s
+sys	0m0,212s
+
+real	0m18,314s
+user	0m2,309s
+sys	0m0,170s
+
+real	0m43,563s
+user	0m21,414s
+sys	0m0,402s
+
+real	0m19,621s
+user	0m2,161s
+sys	0m0,150s
+>>> PULSE ESPACIO PARA CONTINUAR <<< ls: cannot access 'proceso2_*_evaluacion.json': No such file or directory
+
+real	1m49,935s
+user	0m29,217s
+sys	0m0,963s

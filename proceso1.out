@@ -1,0 +1,139 @@
+[H[2J[3J _____ _       _               
+|  ___| | ___ | | __ _____   _ 
+| |_  | |/ _ \| |/ /|_  / | | |
+|  _| | | (_) |   <  / /| |_| |
+|_|   |_|\___/|_|\_\/___|\__,_|
+                               
+
+
+
+[INFO] Borrando JSON anteriores...
+
+[INFO] Documentos a procesar.
+[INFO] Se encontraron 4 documentos:
+    FCA00003-00007637-ASSIST_CARD.pdf
+    FCB00003-00000592-AGIP.pdf
+    FCCA00003-00002580-GALICIA.pdf
+    NCCA00003-00000172-LIFE.pdf
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando FCA00003-00007637-ASSIST_CARD.pdf ...
+⏳ Procesando: FCA00003-00007637-ASSIST_CARD.pdf ...
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: Factura_Data_Model
+Campos del modelo de datos:
+  - tipo_comprobante : Código AFIP del comprobante (ej: '01' para Factura A, '06' para Factura B)
+  - fecha_emision : Fecha de emisión en formato dd/mm/aaaa
+  - numero_factura : Número de factura en formato X-00000-00000000 (letra comprobante, 5 dígitos punto venta, 8 dígitos número)
+  - fecha_vencimiento : Fecha de vencimiento en formato dd/mm/aaaa
+  - monto : Monto en formato NNNNNNN,NN (número decimal con coma sin separador de miles)
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso1/FCA00003-00007637-ASSIST_CARD.pdf
+Tamaño en bytes: 94507
+
+*** LLAMANDO A MODELO IA ***
+Analizando el documento de factura, extraigo los siguientes datos:
+Tool #1: Factura_Data_Model
+✅ JSON OBTENIDO.
+Procesado en 3.79 segundos.
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando FCB00003-00000592-AGIP.pdf ...
+⏳ Procesando: FCB00003-00000592-AGIP.pdf ...
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: Factura_Data_Model
+Campos del modelo de datos:
+  - tipo_comprobante : Código AFIP del comprobante (ej: '01' para Factura A, '06' para Factura B)
+  - fecha_emision : Fecha de emisión en formato dd/mm/aaaa
+  - numero_factura : Número de factura en formato X-00000-00000000 (letra comprobante, 5 dígitos punto venta, 8 dígitos número)
+  - fecha_vencimiento : Fecha de vencimiento en formato dd/mm/aaaa
+  - monto : Monto en formato NNNNNNN,NN (número decimal con coma sin separador de miles)
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso1/FCB00003-00000592-AGIP.pdf
+Tamaño en bytes: 92392
+
+*** LLAMANDO A MODELO IA ***
+Analizando el documento de factura, extraeré los datos según el modelo especificado:
+Tool #1: Factura_Data_Model
+✅ JSON OBTENIDO.
+Procesado en 8.95 segundos.
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando FCCA00003-00002580-GALICIA.pdf ...
+⏳ Procesando: FCCA00003-00002580-GALICIA.pdf ...
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: Factura_Data_Model
+Campos del modelo de datos:
+  - tipo_comprobante : Código AFIP del comprobante (ej: '01' para Factura A, '06' para Factura B)
+  - fecha_emision : Fecha de emisión en formato dd/mm/aaaa
+  - numero_factura : Número de factura en formato X-00000-00000000 (letra comprobante, 5 dígitos punto venta, 8 dígitos número)
+  - fecha_vencimiento : Fecha de vencimiento en formato dd/mm/aaaa
+  - monto : Monto en formato NNNNNNN,NN (número decimal con coma sin separador de miles)
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso1/FCCA00003-00002580-GALICIA.pdf
+Tamaño en bytes: 91329
+
+*** LLAMANDO A MODELO IA ***
+❌ An error occurred (ThrottlingException) when calling the ConverseStream operation (reached max retries: 4): Too many requests, please wait before trying again.
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+[INFO] Procesando NCCA00003-00000172-LIFE.pdf ...
+⏳ Procesando: NCCA00003-00000172-LIFE.pdf ...
+Modelo de lenguaje: us.anthropic.claude-sonnet-4-20250514-v1:0
+Prompt: Extrae los datos del documento, en base a lo especificado en el modelo de datos.
+Modelo de datos: Factura_Data_Model
+Campos del modelo de datos:
+  - tipo_comprobante : Código AFIP del comprobante (ej: '01' para Factura A, '06' para Factura B)
+  - fecha_emision : Fecha de emisión en formato dd/mm/aaaa
+  - numero_factura : Número de factura en formato X-00000-00000000 (letra comprobante, 5 dígitos punto venta, 8 dígitos número)
+  - fecha_vencimiento : Fecha de vencimiento en formato dd/mm/aaaa
+  - monto : Monto en formato NNNNNNN,NN (número decimal con coma sin separador de miles)
+
+Nombre del documento: Documento
+Ubicación del documento: /home/crp/Projects/itp-flokzu/data/proceso1/NCCA00003-00000172-LIFE.pdf
+Tamaño en bytes: 98061
+
+*** LLAMANDO A MODELO IA ***
+Analizando el documento, puedo extraer los siguientes datos de la factura:
+Tool #1: Factura_Data_Model
+✅ JSON OBTENIDO.
+Procesado en 5.37 segundos.
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+
+
+
+[INFO] Documentos procesados:
+-rw-rw-r-- 1 crp crp 94507 Jul 28 14:12 data/proceso1/FCA00003-00007637-ASSIST_CARD.pdf
+-rw-rw-r-- 1 crp crp 92392 Jul 28 14:13 data/proceso1/FCB00003-00000592-AGIP.pdf
+-rw-rw-r-- 1 crp crp 91329 Jul 28 14:13 data/proceso1/FCCA00003-00002580-GALICIA.pdf
+-rw-rw-r-- 1 crp crp 98061 Jul 28 14:13 data/proceso1/NCCA00003-00000172-LIFE.pdf
+
+[INFO] Salidas generadas:
+-rw-rw-r-- 1 crp crp 165 Aug 26 08:37 proceso1_FCA00003-00007637-ASSIST_CARD_campos.json
+-rw-rw-r-- 1 crp crp 166 Aug 26 08:38 proceso1_FCB00003-00000592-AGIP_campos.json
+-rw-rw-r-- 1 crp crp 166 Aug 26 08:38 proceso1_NCCA00003-00000172-LIFE_campos.json
+
